@@ -35,7 +35,7 @@ oc project ${MY_PROJECT}
 oc process openshift//delta-jenkins | oc apply -f- 
 
 # For 3.x
-oc process openshift//jenkins-master-persistent-deploy-delta | oc apply -f-
+oc process openshift//delta-jenkins-v3-11 | oc apply -f-
 
 #NOTE:  FOR 4.2:  There is an error in the NodeJS12 CONFIGMAP Build Agent (Filed as ISSUE#11), so besure the value
 #           defined for the image reference is correct: image-registry.openshift-image-registry.svc:5000
