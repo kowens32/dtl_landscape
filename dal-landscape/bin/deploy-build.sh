@@ -22,7 +22,7 @@ if [ $? -ne 0 ]; then
 fi
 
 #TODO: Correct for HTTPS/GIT
-SOURCE_REPOSITORY_URL=https://git.delta.com/jesse/dtl_landscape.git
+SOURCE_REPOSITORY_URL=https://git.delta.com/ea/dtl_landscape.git
 
 SOURCE_REPOSITORY_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 if [ $? -ne 0 ]; then

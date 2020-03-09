@@ -2,7 +2,7 @@ global:
   name: Delta Technology Landscape
   short_name: DAL
   mode: DAL
-  repo: 'git@git.delta.com:jesse/dal-landscape.git'
+  repo: 'git@git.delta.com:ea/dal-landscape.git'
   website: 'https://landscape.delta.com'
   short_domain: ea.delta.com
   company_url: 'https://www.delta.com'

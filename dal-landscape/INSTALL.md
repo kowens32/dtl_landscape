@@ -3,16 +3,16 @@
 ## Install on Mac
 1. Install [Homebrew](https://brew.sh/)
 2. `brew install node`
-3. `git clone git@git.delta.com:jesse/dtl_landscape.git`
+3. `git clone git@git.delta.com:ea/dtl_landscape.git`
 
 ## Install on Linux
-1. `git clone git@git.delta.com:jesse/dtl_landscape.git`
+1. `git clone git@git.delta.com:ea/dtl_landscape.git`
 2. Please follow [this script](https://github.com/cncf/landscapeapp/blob/master/update_server/setup.template) to install correct versions of `nodejs` and other packages on Linux.
 
 ## Local development
 The CNCF team recommends installing one or more landscapes as sibling directories to the landscapeapp. Then, you want to install the npm modules for landscapeapp but not for any of the landscapes. So, if you're in a directory called `${HOME}/dev`, you would do:
 ```sh
-dev$ git clone git@git.delta.com:jesse/dtl_landscape.git
+dev$ git clone git@git.delta.com:ea/dtl_landscape.git
 dev$ cd dtl_landscape/landscapeapp
 dev$ npm install
 ```

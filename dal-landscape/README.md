@@ -16,7 +16,7 @@
 
 The Delta Technology Landscape Project, based upon the [CNCF](https://l.cncf.io) is intended as a map through the previously uncharted terrain of Delta's collection of approved technologies. This attempts to categorize most of the services and product offerings at Delta. 
 
-The software for the interactive landscape has been sourced to https://git.delta.com/jesse/dal-landscape.git where it is used for other landscapes as well. This repo includes all of the data and images specific to the CNCF landscapes.
+The software for the interactive landscape has been sourced to https://git.delta.com/ea/dal-landscape.git where it is used for other landscapes as well. This repo includes all of the data and images specific to the CNCF landscapes.
 
 ## Trail Map
 

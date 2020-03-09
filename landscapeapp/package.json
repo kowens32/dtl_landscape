@@ -187,7 +187,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://git.delta.com/jesse/landscapeapp"
+    "url": "https://git.delta.com/ea/landscapeapp"
   },
   "jest": {
     "haste": {
