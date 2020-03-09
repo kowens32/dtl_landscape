@@ -12,7 +12,10 @@
 *NOTE:* Either run within Windows CMD Prompt, Mac Terminal Shell, or UNIX Shell.  There are problems/bugs if trying to run within Git for Windows Shell.
 
 ```shell
-# Let's login to the platform 
+# if 3.10
+oc login https://dvl1con.paasdev.delta.com:443 
+
+# If deployment to 4.2, 
 oc login https://api.sr1a1.paasdev.delta.com:6443
 
 # OPTIONAL: Skip this Next step/command if have Ansible installed locally.  Otherwise, you may run in a toolkit container:
@@ -24,12 +27,17 @@ git clone https://git.delta.com/${TARGET_REPO}/dtl_landscape.git
 # Change into the target namespace/project
 oc project ${MY_PROJECT}
 
-# REQUIRED_TODO: Update variables in the .openshift/params/*.*  (Specific attendtion to: SOURCE_REPOSITORY_URL Repo. )
+# REQUIRED_TODO: Update variables in the .openshift/params/*.*  (Specific attendtion to: NAMESPACE and SOURCE_REPOSITORY_URL Repo. )
 
 # Next, let's install Jenkins (if needed)
+
+# For 4.2
 oc process openshift//delta-jenkins | oc apply -f- 
 
-#NOTE:  There is an error in the ConfigMap defined for the NodeJS12 Build Agent (Filed as ISSUE#11), so besure the value
+# For 3.x
+oc process openshift//jenkins-master-persistent-deploy-delta | oc apply -f-
+
+#NOTE:  FOR 4.2:  There is an error in the NodeJS12 CONFIGMAP Build Agent (Filed as ISSUE#11), so besure the value
 #           defined for the image reference is correct: image-registry.openshift-image-registry.svc:5000
 #           If you do need to change:  1) edit the ConfigMap, 2) Scale to 0 pods, 3) Scale back to 1
 
