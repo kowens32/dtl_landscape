@@ -1,0 +1,577 @@
+landscape:
+  - category:
+    name: Provisioning
+    subcategories:
+      - subcategory:
+        name: Automation & Configuration
+        items:
+          - item:
+            name: Ansible
+            project: standard
+            homepage_url: 'https://www.ansible.com/'
+            repo_url: 'https://github.com/ansible/ansible'
+            stock_ticker: IBM
+            logo: ansible.svg
+            twitter: 'https://twitter.com/ansible'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: AWS CloudFormation
+            project: standard
+            description: AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
+            homepage_url: 'https://aws.amazon.com/cloudformation/'
+            logo: aws-cloudformation.svg
+            twitter: 'https://twitter.com/awscloudformer'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: VMware vSphere
+            project: standard
+            description: >-
+              vSphere is the industry-leading server virtualization software and the heart of a modern SDDC, helping you run, manage, connect, and secure your
+              applications in a common operating environment across clouds.
+            homepage_url: 'https://www.vmware.com/products/vsphere.html'
+            logo: vmware-vsphere.svg
+            twitter: 'https://twitter.com/VMwarevSphere'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+      - subcategory:
+        name: Container Registry
+        items:
+          - item:
+            name: Amazon Elastic Container Registry (ECR)
+            project: standard
+            description: >-
+              Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and
+              deploy Docker container images.
+            homepage_url: 'https://aws.amazon.com/ecr/'
+            logo: amazon-ecr.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Quay
+            homepage_url: 'https://quay.io/'
+            project: standard
+            repo_url: 'https://github.com/quay/quay'
+            stock_ticker: IBM
+            logo: quay.svg
+            twitter: 'https://twitter.com/projectquay'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+      - subcategory:
+        name: Security & Compliance
+        items:
+          - item:
+            name: OpenSCAP
+            project: standard
+            homepage_url: 'https://www.open-scap.org/'
+            repo_url: 'https://github.com/OpenSCAP/openscap'
+            stock_ticker: IBM
+            logo: openscap.svg
+            twitter: 'https://twitter.com/OpenSCAP'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: Sonatype Nexus
+            project: standard
+            homepage_url: 'https://www.sonatype.com/'
+            logo: sonatype.svg
+            twitter: 'https://twitter.com/sonatype'
+            crunchbase: 'https://www.crunchbase.com/organization/sonatype'
+      - subcategory:
+        name: Key Management
+        items:
+          - item:
+            name: CyberArk Conjur
+            project: standard
+            homepage_url: 'https://www.conjur.org'
+            repo_url: 'https://github.com/cyberark/conjur'
+            logo: conjur.svg
+            twitter: 'https://twitter.com/ConjurInc'
+            crunchbase: 'https://www.crunchbase.com/organization/cyber-ark-software'
+  - category:
+    name: Runtime
+    subcategories:
+      - subcategory:
+        name: Cloud Native Storage
+        items:
+          - item:
+            name: Dell EMC
+            project: standard
+            description: Data storage that takes you from insights to innovation.
+            homepage_url: 'https://www.dellemc.com/en-us/storage/data-storage.htm'
+            logo: dell-emc.svg
+            twitter: 'https://twitter.com/DellEMCStorage'
+            crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
+          - item:
+            name: Gluster
+            project: emerging
+            homepage_url: 'https://www.gluster.org/'
+            repo_url: 'https://github.com/gluster/glusterfs'
+            stock_ticker: IBM
+            logo: gluster.svg
+            twitter: 'https://twitter.com/gluster'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: NetApp Private Storage
+            project: standard
+            description: 'Build your Data Fabric on the industry’s broadest portfolio of all-flash, hybrid-flash, and object storage systems.'
+            homepage_url: 'https://www.netapp.com/us/products/storage-systems/index.aspx'
+            logo: netapp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netapp'
+          - item:
+            name: Pure Storage
+            project: standard
+            homepage_url: 'https://www.purestorage.com/'
+            logo: pure-storage.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pure-storage'
+      - subcategory:
+        name: Container Runtime
+        items: null
+      - subcategory:
+        name: Cloud Native Network
+        items:
+          - item:
+            name: VMware NSX
+            description: >-
+              VMware NSX® Data Center delivers virtualized networking and security entirely in software, completing a key pillar of the Software-defined Data
+              Center (SDDC), and enabling the virtual cloud network to connect and protect across data centers, clouds, and applications.
+            homepage_url: 'https://www.vmware.com/products/nsx.html'
+            logo: vmware-nsx.svg
+            twitter: 'https://twitter.com/vmwarensx'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+  - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Amazon Elastic Container Service (ECS)
+            description: >-
+              Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container orchestration service that supports Docker
+              containers and allows you to easily run and scale containerized applications on AWS.
+            homepage_url: 'https://aws.amazon.com/ecs/'
+            project: standard
+            logo: amazon-ecs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Kubernetes
+            description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
+            homepage_url: 'https://kubernetes.io/'
+            project: standard
+            repo_url: 'https://github.com/kubernetes/kubernetes'
+            logo: kubernetes.svg
+            twitter: 'https://twitter.com/kubernetesio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            name: etcd
+            homepage_url: 'https://github.com/etcd-io'
+            project: emerging
+            repo_url: 'https://github.com/etcd-io/etcd'
+            logo: etcd.svg
+            twitter: 'https://twitter.com/etcdio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: Netflix Eureka
+            homepage_url: 'https://github.com/Netflix/eureka'
+            repo_url: 'https://github.com/Netflix/eureka'
+            logo: netflix-oss-eureka.svg
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+      - subcategory:
+        name: Remote Procedure Call
+        items:
+          - item:
+            name: gRPC
+            homepage_url: 'https://grpc.io/'
+            project: emerging
+            repo_url: 'https://github.com/grpc/grpc'
+            logo: grpc.svg
+            twitter: 'https://twitter.com/grpcio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+      - subcategory:
+        name: Service Proxy
+        items:
+          - item:
+            name: Contour
+            homepage_url: 'https://projectcontour.io'
+            repo_url: 'https://github.com/projectcontour/contour'
+            logo: project-contour.svg
+            twitter: 'https://twitter.com/projectcontour'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+          - item:
+            name: Envoy
+            homepage_url: 'https://www.envoyproxy.io'
+            project: standard
+            repo_url: 'https://github.com/envoyproxy/envoy'
+            logo: envoy.svg
+            twitter: 'https://twitter.com/envoyproxy'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: F5
+            homepage_url: 'https://www.f5.com/'
+            logo: f5.svg
+            twitter: 'https://twitter.com/F5Networks'
+            crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
+            project: standard
+          - item:
+            name: NGINX
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: nginx.svg
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
+      - subcategory:
+        name: Service Mesh
+        items:
+          - item:
+            name: Consul
+            homepage_url: 'https://www.consul.io/'
+            repo_url: 'https://github.com/hashicorp/consul'
+            logo: consul.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+          - item:
+            name: Istio
+            homepage_url: 'https://istio.io/'
+            repo_url: 'https://github.com/istio/istio'
+            logo: istio.svg
+            twitter: 'https://twitter.com/IstioMesh'
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+      - subcategory:
+        name: API Gateway
+        items:
+          - item:
+            name: Apigee
+            project: standard
+            homepage_url: 'http://cloud.google.com/apigee/'
+            repo_url: 'https://github.com/apigee/api-platform-samples'
+            stock_ticker: GOOGL
+            open_source: false
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+  - category:
+    name: DevOps Services and Tools
+    subcategories:
+      - subcategory:
+        name: Database
+        items:
+          - item:
+            name: Cassandra
+            homepage_url: 'https://cassandra.apache.org/'
+            repo_url: 'https://github.com/apache/cassandra'
+            logo: cassandra.svg
+            twitter: 'https://twitter.com/cassandra'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Infinispan
+            homepage_url: 'https://infinispan.org/'
+            repo_url: 'https://github.com/infinispan/infinispan'
+            stock_ticker: IBM
+            logo: infinispan.svg
+            twitter: 'https://twitter.com/infinispan'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: Microsoft SQL Server
+            description: Data-Driven. Faster Insights. Breakthrough Performance. In-Memory Technology. Hybrid Data Platform.
+            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
+            logo: microsoft-sql-server.svg
+            twitter: 'https://twitter.com/SQLServer'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: MongoDB
+            homepage_url: 'https://www.mongodb.com/'
+            repo_url: 'https://github.com/mongodb/mongo'
+            logo: mongo-db.svg
+            open_source: false
+            twitter: 'https://twitter.com/MongoDBEng'
+            crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
+          - item:
+            name: Oracle Database
+            project: standard
+            description: 'The industry’s leading database continues to deliver leading-edge innovations, including machine learning, to enable self-driving data management.'
+            homepage_url: 'https://www.oracle.com/database/'
+            logo: oracle.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+      - subcategory:
+        name: Streaming & Messaging
+        items:
+          - item:
+            name: Apache NiFi
+            homepage_url: 'https://nifi.apache.org/'
+            repo_url: 'https://github.com/apache/nifi'
+            logo: apache-ni-fi.svg
+            twitter: 'https://twitter.com/apachenifi'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: apache-spark.svg
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Kafka
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/apache/kafka'
+            logo: kafka.svg
+            twitter: 'https://twitter.com/apachekafka'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Strimzi
+            homepage_url: 'https://strimzi.io/'
+            repo_url: 'https://github.com/strimzi/strimzi-kafka-operator'
+            logo: strimzi.svg
+            twitter: 'https://twitter.com/strimziio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+      - subcategory:
+        name: Product Management
+        items:
+          - item:
+            name: iServer
+            description: Application Portfolio Management tool
+            project: standard
+            delta_owner: Kim-Prindle
+            homepage_url: 'https://iserver.delta.com/'
+            logo: orbus.svg
+            open_source: false
+            crunchbase: 'https://www.crunchbase.com/organization/orbus-software'
+          - item:
+            name: Service Now (CMDB)
+            description: Software platform which supports IT Service Management (ITSM). It helps you to automate IT Business Management (ITBM).
+            project: standard
+            delta_owner: Infra & Ops
+            homepage_url: 'https://deltasn.service-now.com/sp'
+            stock_ticker: NOW
+            open_source: false
+            twitter: 'https://twitter.com/servicenow'
+            logo: snow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/service-now-com'
+      - subcategory:
+        name: CI/CD
+        items:
+          - item:
+            name: Jenkins
+            project: standard
+            homepage_url: 'https://jenkins.io/'
+            repo_url: 'https://github.com/jenkinsci/jenkins'
+            logo: jenkins.svg
+            twitter: 'https://twitter.com/jenkinsci'
+            crunchbase: 'https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf'
+  - category:
+    name: Platform
+    subcategories:
+      - subcategory:
+        name: Private Cloud
+        items:
+          - item:
+            name: Red Hat OpenShift
+            delta_owner: Flynn Galbraith
+            project: standard
+            description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
+            homepage_url: 'https://www.openshift.com/'
+            repo_url: 'https://github.com/openshift/origin'
+            stock_ticker: IBM
+            logo: red-hat-open-shift.svg
+            twitter: 'https://twitter.com/openshift'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+      - subcategory:
+        name: Public Cloud
+        items:
+          - item:
+            name: Amazon Elastic Container Service for Kubernetes (EKS)
+            description: >-
+              Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without
+              needing to install and operate your own Kubernetes clusters.
+            homepage_url: 'https://aws.amazon.com/eks/'
+            logo: amazon-web-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+  - category:
+    name: Observability and Analysis
+    subcategories:
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            name: Amazon CloudWatch
+            project: standard
+            description: >-
+              Amazon CloudWatch is a monitoring and management service built for developers, system operators, site reliability engineers (SRE), and IT
+              managers. CloudWatch provides you with data and actionable insights to monitor your applications, understand and respond to system-wide
+              performance changes, optimize resource utilization, and get a unified view of operational health.
+            homepage_url: 'https://aws.amazon.com/cloudwatch/'
+            logo: amazon-cloudwatch.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Dynatrace
+            project: standard
+            homepage_url: 'https://www.dynatrace.com/'
+            stock_ticker: null
+            logo: dynatrace.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dynatrace-software'
+          - item:
+            name: Grafana
+            homepage_url: 'https://grafana.com/'
+            project: emerging
+            repo_url: 'https://github.com/grafana/grafana'
+            logo: grafana.svg
+            crunchbase: 'https://www.crunchbase.com/organization/raintank'
+          - item:
+            name: Prometheus
+            homepage_url: 'https://prometheus.io/'
+            project: emerging
+            repo_url: 'https://github.com/prometheus/prometheus'
+            logo: prometheus.svg
+            twitter: 'https://twitter.com/PrometheusIO'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: Riverbed
+            description: 'Cloud-native, scalable, high-definition application performance monitoring (APM) for next gen apps.'
+            homepage_url: 'https://www.riverbed.com/products/steelcentral/steelcentral-appinternals.html'
+            stock_ticker: null
+            logo: riverbed.svg
+            crunchbase: 'https://www.crunchbase.com/organization/riverbed-technology'
+      - subcategory:
+        name: Logging
+        items:
+          - item:
+            name: Fluentd
+            homepage_url: 'https://www.fluentd.org/'
+            project: standard
+            repo_url: 'https://github.com/fluent/fluentd'
+            logo: fluentd.svg
+            twitter: 'https://twitter.com/fluentd'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: Sumo Logic
+            project: standard
+            homepage_url: 'https://www.sumologic.com/'
+            logo: sumologic.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sumo-logic'
+      - subcategory:
+        name: Tracing
+        items:
+          - item:
+            name: Jaeger
+            homepage_url: 'https://www.jaegertracing.io/'
+            project: standard
+            repo_url: 'https://github.com/jaegertracing/jaeger'
+            logo: jaeger.svg
+            twitter: 'https://twitter.com/JaegerTracing'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+      - subcategory:
+        name: Chaos Engineering
+        items: null
+  - category:
+    name: Special
+    subcategories:
+      - subcategory:
+        name: K8S Service Provider
+        items: null
+      - subcategory:
+        name: Training Partner
+        items:
+          - item:
+            name: Pluralsight
+            logo: pluralsight.svg
+            description: >-
+              Pluralsight, Inc. is an American publicly held online education company that offers a variety of video training courses for software developers,
+              IT administrators, and creative professionals through its website
+            open_source: false
+            homepage_url: 'https://www.pluralsight.com/'
+            twitter: 'https://twitter.com/pluralsight'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+  - category:
+    name: Delta Partners
+    subcategories:
+      - subcategory:
+        name: Corporate
+        items:
+          - item:
+            name: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/'
+            logo: amazon-web-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Cisco
+            homepage_url: 'https://www.cisco.com/'
+            logo: cisco-container-platform.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cisco'
+          - item:
+            name: IBM
+            homepage_url: 'https://www.ibm.com/cloud'
+            logo: ibm-cloud.svg
+            twitter: 'https://twitter.com/IBMcloud'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: Microsoft
+            homepage_url: 'https://azure.microsoft.com/en-us/'
+            logo: microsoft-azure.svg
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: NetApp
+            homepage_url: 'https://www.netapp.com/us/index.aspx'
+            logo: netapp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netapp'
+          - item:
+            name: Oracle
+            homepage_url: 'https://www.oracle.com/index.html'
+            logo: oracle.svg
+            twitter: 'https://twitter.com/oraclecloud'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: Palo Alto Networks
+            homepage_url: 'https://www.paloaltonetworks.com/'
+            logo: palo-alto-networks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/palo-alto-networks'
+          - item:
+            name: Red Hat
+            homepage_url: 'https://www.redhat.com/en'
+            stock_ticker: IBM
+            logo: 'https://www.cncf.io/wp-content/uploads/2016/09/red-hat-01.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: SAP
+            homepage_url: 'https://www.sap.com/index.html'
+            logo: sap-kcsp.svg
+            twitter: 'https://twitter.com/sapcp'
+            crunchbase: 'https://www.crunchbase.com/organization/sap'
+          - item:
+            name: VMware
+            homepage_url: 'https://www.vmware.com/'
+            logo: vmware.svg
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+      - subcategory:
+        name: Academic
+        items:
+          - item:
+            name: Georgia Institute of Technology (example)
+            homepage_url: 'https://www.gatech.edu/'
+            twitter: 'https://twitter.com/GeorgiaTech'
+            logo: gaTech.svg
+            crunchbase: 'https://www.crunchbase.com/organization/georgia-institute-of-technology'
+  - category:
+    name: API
+    subcategories:
+      - subcategory:
+        name: Security
+        items: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Apigee Gateway
+            homepage_url: 'http://cloud.google.com/apigee/'
+            stock_ticker: GOOGL
+            open_source: false
+            project: standard
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+      - subcategory:
+        name: Framework
+        items: null
+      - subcategory:
+        name: Hosted Platform
+        items: null
+      - subcategory:
+        name: On-Prem. Platform
+        items: null

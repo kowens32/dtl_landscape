@@ -1,0 +1,70 @@
+- category:
+  name: Delta Partners
+  subcategories:
+    - subcategory:
+      name: Corporate
+      items:
+        - item:
+          name: Amazon Web Services
+          homepage_url: 'https://aws.amazon.com/'
+          logo: amazon-web-services.svg
+          crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+        - item:
+          name: Cisco
+          homepage_url: 'https://www.cisco.com/'
+          logo: cisco-container-platform.svg
+          crunchbase: 'https://www.crunchbase.com/organization/cisco'
+        - item:
+          name: IBM
+          homepage_url: 'https://www.ibm.com/cloud'
+          logo: ibm-cloud.svg
+          twitter: 'https://twitter.com/IBMcloud'
+          crunchbase: 'https://www.crunchbase.com/organization/ibm'
+        - item:
+          name: Microsoft
+          homepage_url: 'https://azure.microsoft.com/en-us/'
+          logo: microsoft-azure.svg
+          twitter: 'https://twitter.com/Azure'
+          crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+        - item:
+          name: NetApp
+          homepage_url: 'https://www.netapp.com/us/index.aspx'
+          logo: netapp.svg
+          crunchbase: 'https://www.crunchbase.com/organization/netapp'
+        - item:
+          name: Oracle
+          homepage_url: 'https://www.oracle.com/index.html'
+          logo: oracle.svg
+          twitter: 'https://twitter.com/oraclecloud'
+          crunchbase: 'https://www.crunchbase.com/organization/oracle'
+        - item:
+          name: Palo Alto Networks
+          homepage_url: 'https://www.paloaltonetworks.com/'
+          logo: palo-alto-networks.svg
+          crunchbase: 'https://www.crunchbase.com/organization/palo-alto-networks'
+        - item:
+          name: Red Hat
+          homepage_url: 'https://www.redhat.com/en'
+          stock_ticker: IBM
+          logo: 'https://www.cncf.io/wp-content/uploads/2016/09/red-hat-01.svg'
+          crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+        - item:
+          name: SAP
+          homepage_url: 'https://www.sap.com/index.html'
+          logo: sap-kcsp.svg
+          twitter: 'https://twitter.com/sapcp'
+          crunchbase: 'https://www.crunchbase.com/organization/sap'
+        - item:
+          name: VMware
+          homepage_url: 'https://www.vmware.com/'
+          logo: vmware.svg
+          crunchbase: 'https://www.crunchbase.com/organization/vmware'
+    - subcategory:
+      name: Academic
+      items:
+        - item:
+          name: Georgia Institute of Technology (example)
+          homepage_url: 'https://www.gatech.edu/'
+          twitter: 'https://twitter.com/GeorgiaTech'
+          logo: gaTech.svg
+          crunchbase: 'https://www.crunchbase.com/organization/georgia-institute-of-technology'

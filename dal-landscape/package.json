@@ -1,0 +1,23 @@
+{
+  "name": "delta-interactive-landscape",
+  "version": "1.0.0",
+  "description": "Interactive visualization of Delta standard projects and products",
+  "engines": {
+    "npm": ">=3",
+    "node": ">= 10.5"
+  },
+  "scripts": {
+    "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore dl-interactive-landscape -- npm run build",
+    "latest": "npm install interactive-landscape@latest"
+  },
+  "author": "Delta EA",
+  "dependencies": {
+    "csv-parser": "2.3.2",
+    "dl-interactive-landscape": "1.0.0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://git.delta.com/jesse/dal-landscape"
+  }
+}

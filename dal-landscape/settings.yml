@@ -1,0 +1,316 @@
+global:
+  name: Delta Technology Landscape
+  short_name: DAL
+  mode: DAL
+  repo: 'git@git.delta.com:jesse/dal-landscape.git'
+  website: 'https://landscape.delta.com'
+  short_domain: ea.delta.com
+  company_url: 'https://www.delta.com'
+  email: Jesse.Duke@delta.com
+  self: 'https://www.crunchbase.com/organization/delta-air-lines'
+  meta:
+    title: Delta Technology Landscape
+    fb_admin: Jesse.Duke
+    description: 'Filter and sort by GitHub stars, funding, commits, contributors, and tweets'
+    twitter: '@Delta'
+  membership: Delta Partners
+  flags:
+    hide_license_for_categories: null
+twitter:
+  search: landscape.delta.com
+  url: 'https://www.delta.com'
+  text: Delta Technology Landscape
+relation:
+  label: Delta Relation
+  url: Delta
+  values:
+    - id: approved
+      label: Delta Products
+      children:
+        - id: standard
+          label: Standard
+          prefix: Delta
+          tag: Standard Product
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Delta Standard
+          big_picture_color: 'rgb(24,54,114)'
+        - id: emerging
+          label: Emerging Products
+          prefix: Delta
+          tag: Emerging Products
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Delta Emerging
+          big_picture_color: 'rgb(83, 113, 189)'
+        - id: contained
+          label: Contained Products
+          prefix: Delta
+          tag: Contained Products
+          color: '#d1f7ff'
+          big_picture_label: Delta Contained
+          big_picture_color: 'rgb(108, 165, 209)'
+          additional_relation: member
+    - id: member
+      label: Delta Providers
+      tag: Delta Providers
+    - id: false
+      label: Other
+      url: 'no'
+membership:
+  Corporate:
+    name: Delta
+    label: Corporate Provider
+    end_user_label: Corporate Provider
+    funding: Corporate
+    is_large: true
+  Academic:
+    name: Delta
+    label: Academic Provider
+    end_user_label: Academic Provider
+    funding: Academic
+  Nonprofit:
+    name: Delta
+    label: Nonprofit Member
+    end_user_label: Nonprofit End User Member
+    funding: Nonprofit
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
+home:
+  header: >
+    <h1>Delta Technology Landscape</h1> The Delta Technology Landscape is Delta&apos;s approved path through the technology landscape. The various technology
+    landscapes are dynamically generated below based upon applied filters.
+  footer: |
+    Delta Air Lines, Inc. - Enterprise Architecture
+ads:
+  - url: 'https://deltaairlines.sharepoint.com/company/IT/ETS/Pages/Enterprise-Architecture.aspx'
+    image: /images/EALogo.png
+    title: Delta Enterprise Architecture
+presets:
+  - url: /project=standard
+    label: Standard cards
+  - url: /project=emerging
+    label: Emerging cards
+  - url: /project=contained
+    label: Contained cards
+  - url: /license=open-source
+    label: Open source landscape
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    short_name: Land...
+    title: Delta Technology Landscape
+    fullscreen_header: Overwhelmed? Please see the Delta Trail Map. That and the interactive landscape are at landscape.delta.com
+    size:
+      width: 1700
+      height: 1010
+    fullscreen_size:
+      width: 1920
+      height: 1080
+    elements:
+      - type: HorizontalCategory
+        category: DevOps Services and Tools
+        rows: 4
+        width: 600
+        height: 180
+        top: 20
+        left: 0
+        color: 'rgb(109,61,143)'
+      - type: HorizontalCategory
+        category: Special
+        rows: 4
+        width: 300
+        height: 180
+        top: 20
+        left: 620
+        color: 'rgb(179,77,77)'
+      - type: HorizontalCategory
+        category: Orchestration & Management
+        rows: 6
+        width: 1200
+        height: 260
+        top: 240
+        left: 0
+        color: 'rgb(46,107,46)'
+      - type: HorizontalCategory
+        category: Runtime
+        rows: 8
+        width: 470
+        height: 350
+        top: 550
+        left: 0
+        color: 'rgb(143,88,61)'
+      - type: HorizontalCategory
+        category: Provisioning
+        rows: 8
+        width: 705
+        height: 350
+        top: 550
+        left: 495
+        color: 'rgb(46,97,107)'
+      - type: VerticalCategory
+        category: Platform
+        cols: 1
+        width: 125
+        height: 250
+        top: 20
+        left: 1220
+        color: 'rgb(107,97,46)'
+      - type: VerticalCategory
+        category: Observability and Analysis
+        cols: 6
+        width: 285
+        height: 610
+        top: 290
+        left: 1220
+        color: 'rgb(107,61,46)'
+      - type: LandscapeInfo
+        width: 290
+        height: 250
+        top: 890
+        left: 5
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map through the previously terrain of Delta approved technologies. There are many routes to deploying a
+              application, with products representing a particularly well-traveled path.
+            top: 80
+            left: 130
+            right: 20
+            font_size: 10
+          - type: image
+            image: qr-l.svg
+            top: 80
+            left: 20
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: delta.com
+            top: 168
+            left: 23
+            font_size: 10
+          - type: image
+            image: left-logo.svg
+            width: 140
+            left: 20
+            top: 28
+            title: Landscape Logo
+  extra:
+    category: API
+    name: API Platform
+    title: API Platforms
+    tab_index: 1
+    url: api
+    short_name: api
+    fullscreen_header: See the API interactive display
+    size:
+      width: 840
+      height: 500
+    fullscreen_size:
+      width: 880
+      height: 560
+    elements:
+      - type: HorizontalCategory
+        category: Tools
+        rows: 2
+        width: 570
+        height: 130
+        top: 0
+        left: 0
+        color: 'rgb(143,109,61)'
+      - type: HorizontalCategory
+        category: Framework
+        rows: 2
+        width: 820
+        height: 130
+        top: 120
+        left: 0
+        fit_width: true
+        offset: 10
+        color: 'rgb(102,61,143)'
+      - type: HorizontalCategory
+        category: Security
+        rows: 2
+        width: 240
+        height: 130
+        top: 0
+        left: 580
+        color: 'rgb(179,94,77)'
+        fit_width: true
+        offset: 40
+      - type: HorizontalCategory
+        category: Hosted Platform
+        rows: 2
+        width: 400
+        height: 130
+        top: 240
+        left: 0
+        fit_width: true
+        color: 'rgb(83,115,38)'
+      - type: HorizontalCategory
+        category: On-Prem. Platform
+        rows: 2
+        width: 400
+        height: 130
+        top: 240
+        left: 420
+        fit_width: true
+        color: 'rgb(83,115,38)'
+      - type: LandscapeInfo
+        width: 520
+        height: 130
+        top: 370
+        left: 5
+        children:
+          - type: text
+            text: >
+              API Platforms computing refers to a model of ....., enabled by architectures that are based upon virtualized hardware and automation leveraging
+              Infrastructure as Code (IaC)
+            top: 10
+            left: 90
+            right: 150
+            font_size: 9
+          - type: image
+            image: qr-l.svg
+            top: 10
+            left: 5
+            width: 70
+            height: 70
+            title: QR Code
+          - type: title
+            title: delta.com
+            top: 75
+            left: 10
+            font_size: 16
+          - type: image
+            image: left-logo.svg
+            width: 110
+            right: 15
+            top: 10
+            title: Landscape Logo
+      - type: LandscapeLink
+        url: landscape
+        title: Delta Technology Landscape
+        layout: subcategory
+        left: 580
+        top: 370
+        width: 305
+        height: 145
+        color: 'rgb(118, 181, 237)'
+test:
+  header: Delta Technology Landscape
+  section: Standard
+  logo: kubernetes.svg
+anonymous_organization:
+  name: Non-Public Unnamed Organization
+  homepage: 'https://www.cncf.io'
+  city: Bouvet Island
+  region: Antarctica
+  country: Antarctica
+  twitter: 'https://twitter.com/CloudNativeFdn'

@@ -1,0 +1,61 @@
+@Library('openshift-library') _
+
+openshift.withCluster() {
+  env.APP_NAME = "dtl-landscape"
+  env.SBX_ENV = openshift.project()
+  env.ARTIFACT_DIRECTORY = "dal-landscape/dist/"
+}
+
+
+pipeline {
+
+  agent { label 'nodejs12' }
+
+  stages {
+
+    stage('SCM Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Build') {
+
+      steps {
+        withCredentials(
+        [string(credentialsId: 'sbx-d9192067-github-secret', variable: 'GITHUB_KEY'), 
+        string(credentialsId: 'sbx-d9192067-twitter-secret', variable: 'TWITTER_KEYS')]) {
+            script {
+                sh '''
+                    echo "build landscapeapp NPM"
+                    function y { PROJECT_PATH=`pwd` npm run --prefix ../landscapeapp "$@"; }
+                    export -f y
+                    cd landscapeapp
+                    npm install
+                    echo "Building Dynamic Data for updates to the processed_landscape.yml"
+                    cd ../dal-landscape
+                    echo "Starting build"
+                    y build
+                    echo "Copy NGINX Conf"
+                    cd ..
+                    cp config/nginx.conf ${ARTIFACT_DIRECTORY}                    
+                  '''
+            } // End Script
+        } // with withCredentials
+      } // End Steps
+    }// End Build
+
+    stage('Image Build') {
+      steps {
+        binaryBuild(projectName: "${SBX_ENV}", buildConfigName: "${APP_NAME}", artifactsDirectoryName: "${ARTIFACT_DIRECTORY}")
+      }
+    }
+
+    stage ("Verify Deployment") {
+        steps {
+            verifyDeployment(projectName: "${SBX_ENV}", targetApp: "${APP_NAME}")
+        }
+    }
+
+  }
+}

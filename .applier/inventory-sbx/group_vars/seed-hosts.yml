@@ -1,0 +1,23 @@
+openshift_cluster_content:
+- object: deployments
+  content:
+  - name: "deploy sbx environment"
+    template: "{{ inventory_dir }}/../../.openshift/templates/deploy.yml"
+    params: "{{ inventory_dir }}/../../.openshift/params/deploy-sbx"
+    params_from_vars:
+      NAMESPACE: "{{ namespace }}"    
+- object: builds
+  content:
+  - name: "deploy build to sandbox"
+    template: "{{ inventory_dir }}/../../.openshift/templates/build.yml"
+    params: "{{ inventory_dir }}/../../.openshift/params/build-sbx"
+    params_from_vars:
+      NAMESPACE: "{{ namespace }}"
+- object: route
+  content:
+  - name: "create route"
+    template: "{{ inventory_dir }}/../../.openshift/templates/route.yml"
+    params: "{{ inventory_dir }}/../../.openshift/params/route-sbx"
+    params_from_vars:
+      NAMESPACE: "{{ namespace }}"    
+      HOSTNAME_HTTP: dl-landscape-{{ namespace }}.apps.sr1a1.paasdev.delta.com

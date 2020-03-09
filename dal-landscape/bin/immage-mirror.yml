@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Template
+labels:
+  template: image-mirror-secret
+  # Create Deployment Secret where TOKEN=$(oc sa get-token promoter) from target namespace
+  # oc process -f immage-mirror.yml -p SECRET_NAME=pipeline-dvl -p TOKEN=${TOKEN} | oc create -f -
+metadata:
+  annotations:
+    description: Cluster Credential Secret
+    tags: secret
+    version: 1.0.0
+  name: image-mirror-secret
+objects:
+- apiVersion: v1
+  stringData:
+    username: generic
+    password: "${TOKEN}"
+  data:
+  kind: Secret
+  metadata:
+    name: ${SECRET_NAME}
+    labels:
+      credential.sync.jenkins.openshift.io: 'true'
+  type: kubernetes.io/basic-auth
+parameters:
+- description: The name for the application.
+  name: SECRET_NAME
+  required: true
+- description: Service Account Token
+  name: TOKEN
+  required: true

@@ -1,0 +1,105 @@
+---
+apiVersion: v1
+kind: Template
+labels:
+  template: ${APPLICATION_NAME}
+  application: ${APPLICATION_NAME}
+metadata:
+  annotations:
+    iconClass: icon-nginx
+    tags: dtl-landscape,nginx
+  name: ${APPLICATION_NAME}
+objects:
+- apiVersion: v1
+  kind: ImageStream
+  metadata:
+    annotations:
+      description: Keeps track of changes in the application image
+    name: "${APPLICATION_NAME}"
+    namespace: "${NAMESPACE}"
+    labels:
+       application: "${APPLICATION_NAME}"
+- apiVersion: v1
+  kind: BuildConfig
+  metadata:
+    annotations:
+      description: Defines how to build the application
+      template.alpha.openshift.io/wait-for-ready: 'true'
+    name: "${APPLICATION_NAME}"
+    labels:
+       application: "${APPLICATION_NAME}"
+  spec:
+    output:
+      to:
+        kind: ImageStreamTag
+        name: ${APPLICATION_NAME}:${TAG}
+        namespace: "${NAMESPACE}"
+    source:
+      git:
+        ref: "${SOURCE_REPOSITORY_REF}"
+        uri: "${SOURCE_REPOSITORY_URL}"
+      type: Git
+    strategy:
+      sourceStrategy:
+        from:
+          kind: ImageStreamTag
+          name: ${NGINX_IMAGE_STREAM}:${NGINX_TAG}
+          namespace: "openshift"
+      type: Source
+- kind: BuildConfig
+  apiVersion: v1
+  metadata:
+    labels:
+      application: "${APPLICATION_NAME}"
+    name: ${APPLICATION_NAME}-pipeline
+    namespace: ${NAMESPACE}
+  spec:
+    source:
+      type: Git
+      git:
+        uri: ${SOURCE_REPOSITORY_URL}
+        ref: ${SOURCE_REPOSITORY_REF}
+    triggers:
+    - type: ConfigChange
+    strategy:
+      type: JenkinsPipeline
+      jenkinsPipelineStrategy:
+        jenkinsfilePath: "${JENKINSFILE_PATH}"
+parameters:
+- description: The name assigned to all of the frontend objects defined in this template.
+  displayName: Name
+  name: APPLICATION_NAME
+  required: true
+  value: landscape-template
+- description: The OpenShift Namespace where the ImageStream resides.
+  displayName: Namespace
+  name: NAMESPACE
+  required: true
+- description: NGINX image stream to be used (currently delta-nginx114-openshift by default).
+  displayName: NGINX Image Stream
+  name: NGINX_IMAGE_STREAM
+  required: true
+  value: 'delta-nginx114-openshift'
+- description: NGINX image stream tag to be used (1.14 by default).
+  displayName: NGINX Tag
+  name: NGINX_TAG
+  required: true
+  value: 'latest'
+- description: The URL of the repository with your application source code.
+  displayName: Git Repository URL
+  name: SOURCE_REPOSITORY_URL
+  required: true
+- description: Set this to a branch name, tag or other ref of your repository if you
+    are not using the default branch.
+  displayName: Git Reference
+  name: SOURCE_REPOSITORY_REF
+  required: true
+- description: Version of NGINX image to be used (1.14 by default).
+  displayName: NGINX Version
+  name: JENKINSFILE_PATH
+  required: true
+  value: 'Jenkinsfile'
+- description: Image tag
+  name: TAG
+  required: true
+  value: latest

@@ -1,0 +1,3213 @@
+# THIS FILE IS GENERATED AUTOMATICALLY!
+landscape:
+  - category:
+    name: Provisioning
+    subcategories:
+      - subcategory:
+        name: Automation & Configuration
+        items:
+          - item:
+            name: Ansible
+            project: standard
+            homepage_url: 'https://www.ansible.com/'
+            repo_url: 'https://github.com/ansible/ansible'
+            stock_ticker: IBM
+            logo: ansible.svg
+            twitter: 'https://twitter.com/ansible'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Python
+                  value: 69654105
+                  color: '#3572A5'
+                - name: PowerShell
+                  value: 1523399
+                  color: '#012456'
+                - name: Shell
+                  value: 166519
+                  color: '#89e051'
+                - name: 'C#'
+                  value: 149775
+                  color: '#178600'
+                - name: Makefile
+                  value: 22684
+                  color: '#427819'
+                - name: Tcl
+                  value: 3223
+                  color: '#e4cc98'
+                - name: Roff
+                  value: 2324
+                  color: '#ecdebe'
+                - name: Go
+                  value: 2010
+                  color: '#00ADD8'
+                - name: DIGITAL Command Language
+                  value: 1202
+                - name: JavaScript
+                  value: 908
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 370
+                  color: '#384d54'
+                - name: C
+                  value: 345
+                  color: '#555555'
+                - name: SQLPL
+                  value: 330
+                - name: TSQL
+                  value: 242
+                - name: Batchfile
+                  value: 144
+                  color: '#C1F12E'
+                - name: HTML
+                  value: 54
+                  color: '#e34c26'
+              contributions: >-
+                177;292;231;211;201;192;201;189;159;142;65;99;85;97;108;116;104;143;128;124;130;79;124;122;123;134;168;220;353;226;106;137;113;59;67;90;120;86;109;97;112;101;44;108;76;63;19;54;83;72;75;82
+              firstWeek: 2019-02-10Z
+              stars: 41625
+              license: GNU General Public License v3.0
+              description: >-
+                Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom
+                code to deploy and update your applications — automate in a language that approaches plain English, using SSH, with no agents to install on
+                remote systems. https://docs.ansible.com/ansible/
+              latest_commit_date: '2020-02-04T23:02:04Z'
+              latest_commit_link: /ansible/ansible/commit/78470c43c21d834a9513fb309fb219b74a5d1cee
+              release_date: '2018-02-09T06:51:40Z'
+              release_link: 'https://github.com/ansible/ansible/releases'
+              contributors_count: 4881
+              contributors_link: 'https://github.com/ansible/ansible/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /ansible/ansible/commit/f31421576b00f0b167cdbe61217c31c21a41ac02
+              start_date: '2012-02-23T19:17:24Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: ansible.svg
+              hash: XHYuAuMuTK2RwU2sPPE/griyO0uifBKF5Dz1ve/alng=
+            best_practice_data:
+              badge: 2372
+              percentage: 65
+            twitter_data:
+              latest_tweet_date: 2020-02-04T17:34:46.000Z
+          - item:
+            name: AWS CloudFormation
+            project: standard
+            description: AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
+            homepage_url: 'https://aws.amazon.com/cloudformation/'
+            logo: aws-cloudformation.svg
+            twitter: 'https://twitter.com/awscloudformer'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: aws-cloud-formation.svg
+              hash: oTLc8IZAFC62wXtsjj2M8uMBsm3uUMdcqfVTO5eZ2hc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-12-20T00:34:00.000Z
+          - item:
+            name: VMware vSphere
+            project: standard
+            description: >-
+              vSphere is the industry-leading server virtualization software and the heart of a modern SDDC, helping you run, manage, connect, and secure your
+              applications in a common operating environment across clouds.
+            homepage_url: 'https://www.vmware.com/products/vsphere.html'
+            logo: vmware-vsphere.svg
+            twitter: 'https://twitter.com/VMwarevSphere'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            crunchbase_data:
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.vmware.com'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'https://www.linkedin.com/company/vmware'
+              parents:
+                - 'https://www.crunchbase.com/organization/emc'
+              ticker: VMW
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 64071479296
+              effective_ticker: VMW
+            image_data:
+              fileName: v-mware-v-sphere.svg
+              hash: GnmNfK2GiixSPdGf4bYRZH5gvtwqluU2FzLvI52GB4o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T23:30:13.000Z
+      - subcategory:
+        name: Container Registry
+        items:
+          - item:
+            name: Amazon Elastic Container Registry (ECR)
+            project: standard
+            description: >-
+              Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and
+              deploy Docker container images.
+            homepage_url: 'https://aws.amazon.com/ecr/'
+            logo: amazon-ecr.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: amazon-elastic-container-registry-ecr.svg
+              hash: H4eC9N9p1SkC7GcZxbkTZaYDqy53OhnFAAgSmZTuWPI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:08:24.000Z
+          - item:
+            name: Quay
+            homepage_url: 'https://quay.io/'
+            project: standard
+            repo_url: 'https://github.com/quay/quay'
+            stock_ticker: IBM
+            logo: quay.svg
+            twitter: 'https://twitter.com/projectquay'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Python
+                  value: 4898033
+                  color: '#3572A5'
+                - name: HTML
+                  value: 802090
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 794847
+                  color: '#f1e05a'
+                - name: TypeScript
+                  value: 284301
+                  color: '#2b7489'
+                - name: CSS
+                  value: 275751
+                  color: '#563d7c'
+                - name: Shell
+                  value: 27502
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 11517
+                  color: '#384d54'
+                - name: Makefile
+                  value: 4902
+                  color: '#427819'
+                - name: PHP
+                  value: 1742
+                  color: '#4F5D95'
+                - name: Mako
+                  value: 662
+                - name: Genshi
+                  value: 16
+              contributions: >-
+                9;43;16;21;23;13;16;17;7;18;15;30;6;19;10;4;21;22;12;13;27;24;18;24;13;20;15;27;15;28;11;25;13;11;20;26;32;8;56;28;19;28;13;25;50;13;1;7;20;36;7;17
+              firstWeek: 2019-02-10Z
+              stars: 1446
+              license: Apache License 2.0
+              description: 'Build, Store, and Distribute your Applications and Containers'
+              latest_commit_date: '2020-02-04T18:31:57Z'
+              latest_commit_link: /quay/quay/commit/f3c887899a471261f4f49511eb90bb11722ea744
+              contributors_count: 44
+              contributors_link: 'https://github.com/quay/quay/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /quay/quay/commit/0349af754204375d74ac5833713b607398981ff7
+              start_date: '2013-09-20T15:55:44Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: quay.svg
+              hash: fXwScwHT4zsCjnZXBn2KGOw0u1Vnc3Vdyc6r7SFfgcA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-11-19T01:21:26.000Z
+      - subcategory:
+        name: Security & Compliance
+        items:
+          - item:
+            name: OpenSCAP
+            project: standard
+            homepage_url: 'https://www.open-scap.org/'
+            repo_url: 'https://github.com/OpenSCAP/openscap'
+            stock_ticker: IBM
+            logo: openscap.svg
+            twitter: 'https://twitter.com/OpenSCAP'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: XSLT
+                  value: 13110727
+                  color: '#EB8CEB'
+                - name: C
+                  value: 4517976
+                  color: '#555555'
+                - name: Shell
+                  value: 912366
+                  color: '#89e051'
+                - name: Python
+                  value: 119715
+                  color: '#3572A5'
+                - name: CMake
+                  value: 106250
+                - name: Rich Text Format
+                  value: 49793
+                - name: Roff
+                  value: 44932
+                  color: '#ecdebe'
+                - name: C++
+                  value: 28903
+                  color: '#f34b7d'
+                - name: JavaScript
+                  value: 25258
+                  color: '#f1e05a'
+                - name: Perl
+                  value: 16326
+                  color: '#0298c3'
+                - name: Smarty
+                  value: 14476
+                - name: CSS
+                  value: 2278
+                  color: '#563d7c'
+                - name: Objective-C
+                  value: 1895
+                  color: '#438eff'
+                - name: Lua
+                  value: 61
+                  color: '#000080'
+              contributions: 0;7;4;3;5;3;0;2;1;0;1;2;9;10;14;16;9;34;32;5;3;8;13;8;12;3;5;5;0;1;1;0;6;2;6;3;32;5;10;6;8;4;10;17;7;3;0;11;26;14;4;0
+              firstWeek: 2019-02-10Z
+              stars: 551
+              license: GNU Lesser General Public License v2.1
+              description: NIST Certified SCAP 1.2 toolkit
+              latest_commit_date: '2020-01-28T12:00:47Z'
+              latest_commit_link: /OpenSCAP/openscap/commit/fa81dfc1cb14b2ac9f5a2ebbc17a0b58f10e2f20
+              release_date: '2020-01-14T11:13:56Z'
+              release_link: 'https://github.com/OpenSCAP/openscap/releases'
+              contributors_count: 68
+              contributors_link: 'https://github.com/OpenSCAP/openscap/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /OpenSCAP/openscap/commit/768d2d13c7b95736738ce2a48db7f2e528c161fe
+              start_date: '2008-11-03T16:58:30Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: open-scap.svg
+              hash: 8hJhzJaQ0U5Z8qNnkk7qJvuVB3kmHG2oPXv0Ujh7VoM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-16T16:09:17.000Z
+          - item:
+            name: Sonatype Nexus
+            project: standard
+            homepage_url: 'https://www.sonatype.com/'
+            logo: sonatype.svg
+            twitter: 'https://twitter.com/sonatype'
+            crunchbase: 'https://www.crunchbase.com/organization/sonatype'
+            crunchbase_data:
+              name: Sonatype
+              description: 'Sonatype helps enterprises get precise intelligence about open source components and accelerate software innovation, quality, and security.'
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'http://sonatype.com'
+              city: Fulton
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/Sonatype'
+              linkedin: 'https://www.linkedin.com/company/sonatype'
+              parents: []
+              kind: funding
+              funding: 154707328
+            image_data:
+              fileName: sonatype-nexus.svg
+              hash: sNBjVcEZNpeq/XeD2E8ShVVSEm+HQD3w/d2RQ1R+17g=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T21:25:02.000Z
+      - subcategory:
+        name: Key Management
+        items:
+          - item:
+            name: CyberArk Conjur
+            project: standard
+            homepage_url: 'https://www.conjur.org'
+            repo_url: 'https://github.com/cyberark/conjur'
+            logo: conjur.svg
+            twitter: 'https://twitter.com/ConjurInc'
+            crunchbase: 'https://www.crunchbase.com/organization/cyber-ark-software'
+            crunchbase_data:
+              name: CyberArk Software
+              description: CyberArk is a security company focused on striking down targeted cyber threats before they affect business operations.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.cyberark.com'
+              city: Newton
+              region: Massachusetts
+              country: United States
+              twitter: 'http://twitter.com/Cyberark'
+              linkedin: 'https://www.linkedin.com/company/cyber-ark-software'
+              parents: []
+              ticker: CYBR
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Ruby
+                  value: 685192
+                  color: '#701516'
+                - name: Gherkin
+                  value: 158309
+                  color: '#5B2063'
+                - name: Shell
+                  value: 63636
+                  color: '#89e051'
+                - name: CSS
+                  value: 22374
+                  color: '#563d7c'
+                - name: HTML
+                  value: 17422
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 7466
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 1463
+                  color: '#384d54'
+                - name: PowerShell
+                  value: 404
+                  color: '#012456'
+              contributions: 21;13;11;20;13;24;26;13;24;16;11;16;20;3;17;19;8;30;7;14;14;24;7;7;11;15;0;0;2;5;3;4;2;3;6;13;0;1;2;2;1;11;5;8;17;12;0;3;15;7;15;2
+              firstWeek: 2019-02-10Z
+              stars: 352
+              license: GNU Lesser General Public License v3.0
+              description: CyberArk Conjur automatically secures secrets used by privileged users and machine identities
+              latest_commit_date: '2020-01-31T18:44:13Z'
+              latest_commit_link: /cyberark/conjur/commit/fd17d535f630e17aa2c21ec4387116ec19c2c242
+              release_date: '2020-01-21T20:02:22Z'
+              release_link: 'https://github.com/cyberark/conjur/releases'
+              contributors_count: 38
+              contributors_link: 'https://github.com/cyberark/conjur/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /cyberark/conjur/commit/0456e1e35788b10802143ae2aa8d7f664073e4bd
+              start_date: '2016-06-28T21:17:41Z'
+            yahoo_finance_data:
+              market_cap: 5415517696
+              effective_ticker: CYBR
+            image_data:
+              fileName: cyber-ark-conjur.svg
+              hash: BDK4odmFB/QeoItCnnl3CLdd26jlbmjqrzWdZoy6Rc4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-03T20:59:46.000Z
+  - category:
+    name: Runtime
+    subcategories:
+      - subcategory:
+        name: Cloud Native Storage
+        items:
+          - item:
+            name: Dell EMC
+            project: standard
+            description: Data storage that takes you from insights to innovation.
+            homepage_url: 'https://www.dellemc.com/en-us/storage/data-storage.htm'
+            logo: dell-emc.svg
+            twitter: 'https://twitter.com/DellEMCStorage'
+            crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
+            crunchbase_data:
+              name: Dell EMC
+              description: Dell EMC enables digital transformation with trusted solutions for the modern data center.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://dellemc.com'
+              city: Hopkinton
+              region: Massachusetts
+              country: United States
+              twitter: 'https://twitter.com/dellemc'
+              linkedin: 'https://www.linkedin.com/company-beta/1128'
+              parents:
+                - 'https://www.crunchbase.com/organization/dell'
+              ticker: DELL
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 37795115008
+              effective_ticker: DELL
+            image_data:
+              fileName: dell-emc.svg
+              hash: KL8NSLN/AfKikubxpQIxDA05HJkv14E4ime/vQe8WIc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T22:05:29.000Z
+          - item:
+            name: Gluster
+            project: emerging
+            homepage_url: 'https://www.gluster.org/'
+            repo_url: 'https://github.com/gluster/glusterfs'
+            stock_ticker: IBM
+            logo: gluster.svg
+            twitter: 'https://twitter.com/gluster'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 17602537
+                  color: '#555555'
+                - name: Shell
+                  value: 1845649
+                  color: '#89e051'
+                - name: Python
+                  value: 755132
+                  color: '#3572A5'
+                - name: Perl
+                  value: 163052
+                  color: '#0298c3'
+                - name: Makefile
+                  value: 87363
+                  color: '#427819'
+                - name: M4
+                  value: 72214
+                - name: RPC
+                  value: 61257
+                - name: C++
+                  value: 49901
+                  color: '#f34b7d'
+                - name: Yacc
+                  value: 16575
+                  color: '#4B6C4B'
+                - name: Ruby
+                  value: 13739
+                  color: '#701516'
+                - name: Vim script
+                  value: 8656
+                  color: '#199f4b'
+                - name: Objective-C
+                  value: 6498
+                  color: '#438eff'
+                - name: Emacs Lisp
+                  value: 5232
+                  color: '#c065db'
+                - name: Scheme
+                  value: 2821
+                  color: '#1e4aec'
+                - name: Lex
+                  value: 1863
+                  color: '#DBCA00'
+                - name: Roff
+                  value: 1544
+                  color: '#ecdebe'
+              contributions: 18;17;14;13;13;17;12;23;24;19;16;20;16;21;18;9;24;18;23;25;13;18;13;9;20;14;11;20;7;10;10;13;14;11;11;12;19;16;8;8;12;14;15;11;8;7;12;9;11;8;4;2
+              firstWeek: 2019-02-10Z
+              stars: 2439
+              license: Other
+              description: 'Gluster Filesystem - (this is only a public mirror, see the README for contributing)'
+              latest_commit_date: '2019-12-11T14:24:45Z'
+              latest_commit_link: /gluster/glusterfs/commit/ec2c7ddd6739afacc871a5df4c348b4c58cf153e
+              contributors_count: 201
+              contributors_link: 'https://github.com/gluster/glusterfs/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /gluster/glusterfs/commit/f3b2e6580e5663292ee113c741343c8a43ee133f
+              start_date: '2009-02-18T11:31:30Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: gluster.svg
+              hash: 1goqtmFzuL1A4wjvIfjo5pL0LY1TzVgtU6Jv9xfBwCE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T04:42:19.000Z
+          - item:
+            name: NetApp Private Storage
+            project: standard
+            description: 'Build your Data Fabric on the industry’s broadest portfolio of all-flash, hybrid-flash, and object storage systems.'
+            homepage_url: 'https://www.netapp.com/us/products/storage-systems/index.aspx'
+            logo: netapp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netapp'
+            crunchbase_data:
+              name: NetApp
+              description: NetApp is a hybrid cloud data services company .
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://netapp.com'
+              city: Sunnyvale
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/netapp'
+              linkedin: 'https://www.linkedin.com/company/netapp'
+              parents: []
+              ticker: NTAP
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 12753268736
+              effective_ticker: NTAP
+            image_data:
+              fileName: net-app-private-storage.svg
+              hash: YevIT4IJuVWaQxc1IkVBAtf893vQswuX2tT6uqHExBc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:07:10.000Z
+          - item:
+            name: Pure Storage
+            project: standard
+            homepage_url: 'https://www.purestorage.com/'
+            logo: pure-storage.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pure-storage'
+            crunchbase_data:
+              name: Pure Storage
+              description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.purestorage.com'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/PureStorage'
+              linkedin: 'https://www.linkedin.com/company/pure-storage'
+              parents: []
+              ticker: PSTG
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 4751843840
+              effective_ticker: PSTG
+            image_data:
+              fileName: pure-storage.svg
+              hash: cj2nlmj8cbDXezvU4dkVHVi1vy3e7acgPFYhAQZEOwI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T22:00:33.000Z
+      - subcategory:
+        name: Container Runtime
+        items: null
+      - subcategory:
+        name: Cloud Native Network
+        items:
+          - item:
+            name: VMware NSX
+            description: >-
+              VMware NSX® Data Center delivers virtualized networking and security entirely in software, completing a key pillar of the Software-defined Data
+              Center (SDDC), and enabling the virtual cloud network to connect and protect across data centers, clouds, and applications.
+            homepage_url: 'https://www.vmware.com/products/nsx.html'
+            logo: vmware-nsx.svg
+            twitter: 'https://twitter.com/vmwarensx'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            crunchbase_data:
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.vmware.com'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'https://www.linkedin.com/company/vmware'
+              parents:
+                - 'https://www.crunchbase.com/organization/emc'
+              ticker: VMW
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 64071479296
+              effective_ticker: VMW
+            image_data:
+              fileName: v-mware-nsx.svg
+              hash: RYii74fP8X0phS6yLq+r185dInpknYoPeT9YaWKEMdk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T22:38:04.000Z
+  - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Amazon Elastic Container Service (ECS)
+            description: >-
+              Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container orchestration service that supports Docker
+              containers and allows you to easily run and scale containerized applications on AWS.
+            homepage_url: 'https://aws.amazon.com/ecs/'
+            project: standard
+            logo: amazon-ecs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: amazon-elastic-container-service-ecs.svg
+              hash: ZPSNLd8YbLKD/jhY5/eEaw32btNi0N/2agn/UGd1S4M=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:08:24.000Z
+          - item:
+            name: Kubernetes
+            description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
+            homepage_url: 'https://kubernetes.io/'
+            project: standard
+            repo_url: 'https://github.com/kubernetes/kubernetes'
+            logo: kubernetes.svg
+            twitter: 'https://twitter.com/kubernetesio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Go
+                  value: 52554605
+                  color: '#00ADD8'
+                - name: Starlark
+                  value: 3638023
+                - name: Shell
+                  value: 1586328
+                  color: '#89e051'
+                - name: PowerShell
+                  value: 118943
+                  color: '#012456'
+                - name: Makefile
+                  value: 65388
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 49820
+                  color: '#384d54'
+                - name: Python
+                  value: 23032
+                  color: '#3572A5'
+                - name: Lua
+                  value: 17200
+                  color: '#000080'
+                - name: C
+                  value: 2840
+                  color: '#555555'
+                - name: sed
+                  value: 1390
+                  color: '#64b970'
+                - name: Ruby
+                  value: 413
+                  color: '#701516'
+                - name: HTML
+                  value: 38
+                  color: '#e34c26'
+              contributions: >-
+                258;342;408;358;291;129;237;264;312;321;253;288;313;315;296;207;319;140;242;294;279;234;284;206;292;313;306;300;381;298;166;244;228;223;253;284;260;307;297;375;300;134;167;209;217;176;137;164;247;215;148;105
+              firstWeek: 2019-02-10Z
+              stars: 62918
+              license: Apache License 2.0
+              description: Production-Grade Container Scheduling and Management
+              latest_commit_date: '2020-02-04T17:09:16Z'
+              latest_commit_link: /kubernetes/kubernetes/commit/4b294079458a7216866ac6d0f7c13c617353a343
+              release_date: '2020-02-04T17:31:00Z'
+              release_link: 'https://github.com/kubernetes/kubernetes/releases'
+              contributors_count: 2431
+              contributors_link: 'https://github.com/kubernetes/kubernetes/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
+              start_date: '2014-06-06T23:40:48Z'
+            image_data:
+              fileName: kubernetes.svg
+              hash: M0QmUh0e0dtnyXCH3av83LOjQNlstE6WYfWjfCCdfcA=
+            best_practice_data:
+              badge: 569
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-02-04T21:45:32.000Z
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            name: etcd
+            homepage_url: 'https://github.com/etcd-io'
+            project: emerging
+            repo_url: 'https://github.com/etcd-io/etcd'
+            logo: etcd.svg
+            twitter: 'https://twitter.com/etcdio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Go
+                  value: 4855232
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 104774
+                  color: '#89e051'
+                - name: Makefile
+                  value: 19530
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 6330
+                  color: '#384d54'
+                - name: PowerShell
+                  value: 2718
+                  color: '#012456'
+                - name: Batchfile
+                  value: 51
+                  color: '#C1F12E'
+              contributions: 12;10;14;10;17;15;19;10;4;12;26;27;17;6;11;24;24;30;10;9;6;9;18;38;51;58;59;45;21;21;29;21;17;11;15;29;27;9;10;6;8;9;14;11;11;3;2;1;6;18;8;11
+              firstWeek: 2019-02-10Z
+              stars: 29447
+              license: Apache License 2.0
+              description: Distributed reliable key-value store for the most critical data of a distributed system
+              latest_commit_date: '2020-02-04T16:12:43Z'
+              latest_commit_link: /etcd-io/etcd/commit/5a807dedbc040ff8d40f157cb88b325a06186d11
+              release_date: '2019-11-27T04:54:11Z'
+              release_link: 'https://github.com/etcd-io/etcd/releases'
+              contributors_count: 540
+              contributors_link: 'https://github.com/etcd-io/etcd/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /etcd-io/etcd/commit/20ca21a3f7122cf7caa91cb0e9b9c69be9279950
+              start_date: '2013-06-07T00:43:32Z'
+            image_data:
+              fileName: etcd.svg
+              hash: Qwqz65rvhOJle5IuZuh28bTCy1hkiCpIZUkpdqB+7Nc=
+            best_practice_data:
+              badge: 3192
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-02-04T20:33:26.000Z
+          - item:
+            name: Netflix Eureka
+            homepage_url: 'https://github.com/Netflix/eureka'
+            repo_url: 'https://github.com/Netflix/eureka'
+            logo: netflix-oss-eureka.svg
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            crunchbase_data:
+              name: Netflix
+              description: 'Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. '
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.netflix.com'
+              city: Los Gatos
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/netflix'
+              linkedin: 'https://www.linkedin.com/company/netflix'
+              parents: []
+              ticker: NFLX
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Java
+                  value: 2083082
+                  color: '#b07219'
+                - name: Shell
+                  value: 3048
+                  color: '#89e051'
+                - name: CSS
+                  value: 2048
+                  color: '#563d7c'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;3;3;0;1;1;1;0;0;0;0;0;0;0;1;0;0;2;0;0;0;0;0;1;0;0;0;0;0;2;0;0;0;0;1;1
+              firstWeek: 2019-02-10Z
+              stars: 8921
+              license: Apache License 2.0
+              description: AWS Service registry for resilient mid-tier load balancing and failover.
+              latest_commit_date: '2020-02-03T21:50:53Z'
+              latest_commit_link: /Netflix/eureka/commit/615448d12f21f219ee4e52f640159c45c8b587fe
+              release_date: '2020-02-03T21:52:27Z'
+              release_link: 'https://github.com/Netflix/eureka/releases'
+              contributors_count: 76
+              contributors_link: 'https://github.com/Netflix/eureka/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /Netflix/eureka/commit/fc7003ca080348d037ff918ba646034c33d6c85c
+              start_date: '2001-01-03T18:11:32Z'
+            yahoo_finance_data:
+              market_cap: 161924186112
+              effective_ticker: NFLX
+            image_data:
+              fileName: netflix-eureka.svg
+              hash: aXcjKv5eciUJxZlMI5/GHdWZrZQynLbBYBfLF64EDS4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-14T18:16:21.000Z
+      - subcategory:
+        name: Remote Procedure Call
+        items:
+          - item:
+            name: gRPC
+            homepage_url: 'https://grpc.io/'
+            project: emerging
+            repo_url: 'https://github.com/grpc/grpc'
+            logo: grpc.svg
+            twitter: 'https://twitter.com/grpcio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: C++
+                  value: 11791045
+                  color: '#f34b7d'
+                - name: C
+                  value: 3154437
+                  color: '#555555'
+                - name: Python
+                  value: 2948896
+                  color: '#3572A5'
+                - name: 'C#'
+                  value: 2100734
+                  color: '#178600'
+                - name: Ruby
+                  value: 1087348
+                  color: '#701516'
+                - name: Makefile
+                  value: 1063327
+                  color: '#427819'
+                - name: Objective-C
+                  value: 690341
+                  color: '#438eff'
+                - name: CMake
+                  value: 574612
+                - name: Starlark
+                  value: 511585
+                - name: Shell
+                  value: 499733
+                  color: '#89e051'
+                - name: PHP
+                  value: 475755
+                  color: '#4F5D95'
+                - name: Dockerfile
+                  value: 164653
+                  color: '#384d54'
+                - name: Objective-C++
+                  value: 77742
+                  color: '#6866fb'
+                - name: JavaScript
+                  value: 72801
+                  color: '#f1e05a'
+                - name: M4
+                  value: 60642
+                - name: Batchfile
+                  value: 35537
+                  color: '#C1F12E'
+                - name: Go
+                  value: 34794
+                  color: '#00ADD8'
+                - name: XSLT
+                  value: 9673
+                  color: '#EB8CEB'
+                - name: Java
+                  value: 6259
+                  color: '#b07219'
+                - name: Mako
+                  value: 5629
+                - name: TSQL
+                  value: 4901
+                - name: Swift
+                  value: 3516
+                  color: '#ffac45'
+                - name: PowerShell
+                  value: 3226
+                  color: '#012456'
+                - name: CSS
+                  value: 1519
+                  color: '#563d7c'
+                - name: DTrace
+                  value: 147
+                - name: HTML
+                  value: 14
+                  color: '#e34c26'
+              contributions: >-
+                138;134;158;102;133;161;155;184;145;119;96;164;97;120;87;101;108;132;123;155;155;75;87;108;112;118;158;130;123;128;120;111;120;89;115;101;221;240;143;127;92;65;86;118;90;63;2;72;105;120;95;109
+              firstWeek: 2019-02-10Z
+              stars: 24756
+              license: Apache License 2.0
+              description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
+              latest_commit_date: '2020-02-04T22:57:47Z'
+              latest_commit_link: /grpc/grpc/commit/c564d28f9a1ea30f67f611386c724b97864d4522
+              release_date: '2020-01-28T22:01:37Z'
+              release_link: 'https://github.com/grpc/grpc/releases'
+              contributors_count: 521
+              contributors_link: 'https://github.com/grpc/grpc/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /grpc/grpc/commit/0e905e63db21bcdd85d3d1af051fcdc5bb5caa38
+              start_date: '2014-11-22T00:16:16Z'
+            image_data:
+              fileName: g-rpc.svg
+              hash: BlcGdIq5xGvNlVYUSkvokJAceZSdXRpM+cY89FAwxyI=
+            best_practice_data:
+              badge: 2112
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-01-23T17:19:47.000Z
+      - subcategory:
+        name: Service Proxy
+        items:
+          - item:
+            name: Contour
+            homepage_url: 'https://projectcontour.io'
+            repo_url: 'https://github.com/projectcontour/contour'
+            logo: project-contour.svg
+            twitter: 'https://twitter.com/projectcontour'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            crunchbase_data:
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.vmware.com'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'https://www.linkedin.com/company/vmware'
+              parents:
+                - 'https://www.crunchbase.com/organization/emc'
+              ticker: VMW
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Go
+                  value: 1300329
+                  color: '#00ADD8'
+                - name: CSS
+                  value: 201798
+                  color: '#563d7c'
+                - name: HTML
+                  value: 88945
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 14158
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 10369
+                  color: '#89e051'
+                - name: Makefile
+                  value: 8495
+                  color: '#427819'
+                - name: Ruby
+                  value: 8009
+                  color: '#701516'
+                - name: Smarty
+                  value: 3445
+                - name: Dockerfile
+                  value: 392
+                  color: '#384d54'
+              contributions: >-
+                17;6;5;14;18;14;11;8;39;22;31;14;22;22;54;9;28;15;13;16;23;54;16;24;8;19;25;29;32;65;68;39;30;22;17;39;30;33;11;17;17;13;16;24;15;3;0;11;20;10;14;11
+              firstWeek: 2019-02-10Z
+              stars: 2096
+              license: Apache License 2.0
+              description: Contour is a Kubernetes ingress controller using Lyft's Envoy proxy.
+              latest_commit_date: '2020-02-03T22:08:42Z'
+              latest_commit_link: /projectcontour/contour/commit/85b83e902525954ff6be035d0acad4034a3ad99a
+              release_date: '2020-01-10T03:11:02Z'
+              release_link: 'https://github.com/projectcontour/contour/releases'
+              contributors_count: 87
+              contributors_link: 'https://github.com/projectcontour/contour/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /projectcontour/contour/commit/788feabc67c4da76cd1ae3c9ac1998b43cb0e2f3
+              start_date: '2017-10-30T21:02:08Z'
+            yahoo_finance_data:
+              market_cap: 64071479296
+              effective_ticker: VMW
+            image_data:
+              fileName: contour.svg
+              hash: I1dhXPEHfF2735ww+MBaa7BKTdkn1tBJ1jPmVkKRy5c=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T18:06:07.000Z
+          - item:
+            name: Envoy
+            homepage_url: 'https://www.envoyproxy.io'
+            project: standard
+            repo_url: 'https://github.com/envoyproxy/envoy'
+            logo: envoy.svg
+            twitter: 'https://twitter.com/envoyproxy'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: C++
+                  value: 17800026
+                  color: '#f34b7d'
+                - name: Starlark
+                  value: 1084256
+                - name: Python
+                  value: 374459
+                  color: '#3572A5'
+                - name: Shell
+                  value: 107411
+                  color: '#89e051'
+                - name: C
+                  value: 20554
+                  color: '#555555'
+                - name: PowerShell
+                  value: 5725
+                  color: '#012456'
+                - name: Emacs Lisp
+                  value: 966
+                  color: '#c065db'
+                - name: Thrift
+                  value: 748
+                - name: Go
+                  value: 695
+                  color: '#00ADD8'
+                - name: Rust
+                  value: 675
+                  color: '#dea584'
+                - name: PureBasic
+                  value: 472
+                  color: '#5a6986'
+                - name: Dockerfile
+                  value: 245
+                  color: '#384d54'
+              contributions: >-
+                60;45;47;58;48;25;40;37;28;50;43;33;54;54;38;48;50;44;36;42;30;29;55;48;43;46;36;31;52;30;31;39;40;41;46;30;60;49;52;56;39;29;26;59;43;29;23;39;38;48;49;37
+              firstWeek: 2019-02-10Z
+              stars: 12206
+              license: Apache License 2.0
+              description: Cloud-native high-performance edge/middle/service proxy
+              latest_commit_date: '2020-02-04T22:55:35Z'
+              latest_commit_link: /envoyproxy/envoy/commit/cb0342fe0c302f3f69a5ef18aa62f7d78da3f67b
+              release_date: '2020-01-20T22:09:12Z'
+              release_link: 'https://github.com/envoyproxy/envoy/releases'
+              contributors_count: 454
+              contributors_link: 'https://github.com/envoyproxy/envoy/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /envoyproxy/envoy/commit/a714b9c2b0a2acc9da44098cabff69586134a0dd
+              start_date: '2016-08-08T15:07:25Z'
+            image_data:
+              fileName: envoy.svg
+              hash: 0COEZmDxBuHsRjEmJcGUxa299np0lkSqUFGRAxfDt4M=
+            best_practice_data:
+              badge: 1266
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-01-29T20:09:59.000Z
+          - item:
+            name: F5
+            homepage_url: 'https://www.f5.com/'
+            logo: f5.svg
+            twitter: 'https://twitter.com/F5Networks'
+            crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
+            project: standard
+            crunchbase_data:
+              name: F5 Networks
+              description: F5 Networks provides application delivery networking technology that optimizes the delivery of network-based applications.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.f5.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/f5networks'
+              linkedin: 'https://www.linkedin.com/company/f5-networks'
+              parents: []
+              ticker: FFIV
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 7497010176
+              effective_ticker: FFIV
+            image_data:
+              fileName: f5.svg
+              hash: ufCB/rmaSQEuEopRWY7G0iaJs404UJ2d5Gkvcr99zN4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T23:15:05.000Z
+          - item:
+            name: NGINX
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: nginx.svg
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
+            crunchbase_data:
+              name: NGINX
+              description: 'NGINX offers advanced internet infrastructure software to help companies deliver faster, more compelling digital experiences.'
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'https://www.nginx.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/nginx'
+              linkedin: 'https://www.linkedin.com/company/nginx'
+              parents: []
+              kind: funding
+              funding: 84000000
+            github_data:
+              languages:
+                - name: C
+                  value: 5188227
+                  color: '#555555'
+                - name: Vim script
+                  value: 130551
+                  color: '#199f4b'
+                - name: XS
+                  value: 25887
+                - name: C++
+                  value: 20305
+                  color: '#f34b7d'
+                - name: Perl
+                  value: 6774
+                  color: '#0298c3'
+                - name: Makefile
+                  value: 4274
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;1;1;1;3;1;2;12;9;0;3;5;3;0;1;4;1;7;2;3;1;10;1;0;1;6;0;0;2;6;8;3;0;1;3;0;0
+              firstWeek: 2019-02-10Z
+              stars: 11152
+              license: Unknown License
+              description: >-
+                An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be
+                automatically closed. The proper way to submit changes to nginx is via the nginx development mailing list, see
+                http://nginx.org/en/docs/contributing_changes.html
+              latest_commit_date: '2020-01-21T13:39:42Z'
+              latest_commit_link: /nginx/nginx/commit/9e07862d6e9d37041a42bbfa34dd1f56ed547505
+              contributors_count: 52
+              contributors_link: 'https://github.com/nginx/nginx/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /nginx/nginx/commit/6de5c2cb63f8aee4bcbec3c363a72fd8e4a4e64d
+              start_date: '2002-08-06T16:39:45Z'
+            image_data:
+              fileName: nginx.svg
+              hash: MvsG8m88MJUSryRbtqXf15//Fd0p5MOUiU3GLUO36Pk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T19:20:21.000Z
+      - subcategory:
+        name: Service Mesh
+        items:
+          - item:
+            name: Consul
+            homepage_url: 'https://www.consul.io/'
+            repo_url: 'https://github.com/hashicorp/consul'
+            logo: consul.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            crunchbase_data:
+              name: HashiCorp
+              description: 'HashiCorp enables organizations to provision, secure, and run any infrastructure for any application.'
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'https://www.hashicorp.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/HashiCorp'
+              linkedin: 'https://www.linkedin.com/company/HashiCorp'
+              parents: []
+              kind: funding
+              funding: 174175000
+            github_data:
+              languages:
+                - name: Go
+                  value: 7836698
+                  color: '#00ADD8'
+                - name: JavaScript
+                  value: 848376
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 489839
+                  color: '#e34c26'
+                - name: CSS
+                  value: 239339
+                  color: '#563d7c'
+                - name: Shell
+                  value: 174783
+                  color: '#89e051'
+                - name: Gherkin
+                  value: 118527
+                  color: '#5B2063'
+                - name: HCL
+                  value: 16931
+                - name: Makefile
+                  value: 16754
+                  color: '#427819'
+                - name: Ruby
+                  value: 7269
+                  color: '#701516'
+                - name: Dockerfile
+                  value: 1113
+                  color: '#384d54'
+              contributions: >-
+                11;24;36;32;30;32;50;18;53;23;22;44;45;36;27;16;11;13;29;33;49;30;33;38;46;37;27;26;52;15;15;21;20;18;14;8;23;16;24;23;21;15;13;48;27;26;0;7;14;27;52;50
+              firstWeek: 2019-02-10Z
+              stars: 18408
+              license: Mozilla Public License 2.0
+              description: >-
+                Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed
+                infrastructure.
+              latest_commit_date: '2020-02-04T20:58:56Z'
+              latest_commit_link: /hashicorp/consul/commit/cb77fc6d0103d847d11212ed22449bd76e921c00
+              contributors_count: 559
+              contributors_link: 'https://github.com/hashicorp/consul/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /hashicorp/consul/commit/0a7996bc4f504894dbd09bac349a2d9999ec9dd6
+              start_date: '2013-11-04T22:15:27Z'
+            image_data:
+              fileName: consul.svg
+              hash: im50Fixqo3rN7kZP5ZOA/VGCI80qP8fGOoUvmwQ8lLA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T16:34:45.000Z
+          - item:
+            name: Istio
+            homepage_url: 'https://istio.io/'
+            repo_url: 'https://github.com/istio/istio'
+            logo: istio.svg
+            twitter: 'https://twitter.com/IstioMesh'
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+            crunchbase_data:
+              name: Google
+              description: Google is a multinational corporation that specializes in Internet-related services and products.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.google.com/'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/google'
+              linkedin: 'https://www.linkedin.com/company/google'
+              parents:
+                - 'https://www.crunchbase.com/organization/alphabet'
+              ticker: GOOG
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Go
+                  value: 11954060
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 243294
+                  color: '#89e051'
+                - name: Makefile
+                  value: 94674
+                  color: '#427819'
+                - name: Smarty
+                  value: 72017
+                - name: HTML
+                  value: 35127
+                  color: '#e34c26'
+                - name: Python
+                  value: 12859
+                  color: '#3572A5'
+                - name: Dockerfile
+                  value: 3453
+                  color: '#384d54'
+                - name: JavaScript
+                  value: 1491
+                  color: '#f1e05a'
+                - name: Ruby
+                  value: 634
+                  color: '#701516'
+              contributions: >-
+                140;54;67;78;60;46;93;82;107;124;135;62;101;91;95;51;54;71;65;60;73;53;72;85;67;94;93;96;74;89;84;64;89;84;90;134;154;112;108;134;49;70;57;70;65;68;25;62;83;92;94;93
+              firstWeek: 2019-02-10Z
+              stars: 21563
+              license: Apache License 2.0
+              description: 'Connect, secure, control, and observe services.'
+              latest_commit_date: '2020-02-05T00:11:45Z'
+              latest_commit_link: /istio/istio/commit/e2e5e1db8100968232b98452e61930f1f372b81a
+              release_date: '2020-02-04T22:45:40Z'
+              release_link: 'https://github.com/istio/istio/releases'
+              contributors_count: 497
+              contributors_link: 'https://github.com/istio/istio/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /istio/istio/commit/0216e811e9da88b867742710f7d166cef2eabfbc
+              start_date: '2016-11-18T23:57:24Z'
+            yahoo_finance_data:
+              market_cap: 996899487744
+              effective_ticker: GOOG
+            image_data:
+              fileName: istio.svg
+              hash: wfYg8V7GwOvKqcDvvgleF4p3+ji0TDeCfvnZeWK9iPg=
+            best_practice_data:
+              badge: 1395
+              percentage: 23
+            twitter_data:
+              latest_tweet_date: 2020-02-04T22:51:22.000Z
+      - subcategory:
+        name: API Gateway
+        items:
+          - item:
+            name: Apigee
+            project: standard
+            homepage_url: 'http://cloud.google.com/apigee/'
+            repo_url: 'https://github.com/apigee/api-platform-samples'
+            stock_ticker: GOOGL
+            open_source: false
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+            crunchbase_data:
+              name: Google
+              description: Google is a multinational corporation that specializes in Internet-related services and products.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.google.com/'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/google'
+              linkedin: 'https://www.linkedin.com/company/google'
+              parents:
+                - 'https://www.crunchbase.com/organization/alphabet'
+              ticker: GOOG
+              kind: market_cap
+            github_data:
+              languages:
+                - name: JavaScript
+                  value: 195992
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 117446
+                  color: '#89e051'
+                - name: Python
+                  value: 17990
+                  color: '#3572A5'
+                - name: CSS
+                  value: 14651
+                  color: '#563d7c'
+                - name: HTML
+                  value: 13083
+                  color: '#e34c26'
+                - name: XSLT
+                  value: 6949
+                  color: '#EB8CEB'
+                - name: Java
+                  value: 5713
+                  color: '#b07219'
+              contributions: 0;1;0;0;0;2;1;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;2;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-02-17Z
+              stars: 306
+              license: Apache License 2.0
+              description: Working samples for the Apigee API Platform
+              latest_commit_date: '2019-11-07T16:42:54Z'
+              latest_commit_link: /apigee/api-platform-samples/commit/b8deb9732584f0ffa3a553a1f8d1c95c91957421
+              contributors_count: 23
+              contributors_link: 'https://github.com/apigee/api-platform-samples/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /apigee/api-platform-samples/commit/4a9ba700718463eb75a8405d2f9ee7f0a44a290b
+              start_date: '2012-08-15T17:24:07Z'
+            yahoo_finance_data:
+              market_cap: 996899487744
+              effective_ticker: GOOG
+            image_data:
+              fileName: apigee.svg
+              hash: zEMFdEcwjW1jH4G/6ipmKDuA9mVomYpBtKbnfD4F65c=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-13T18:05:55.000Z
+  - category:
+    name: DevOps Services and Tools
+    subcategories:
+      - subcategory:
+        name: Database
+        items:
+          - item:
+            name: Cassandra
+            homepage_url: 'https://cassandra.apache.org/'
+            repo_url: 'https://github.com/apache/cassandra'
+            logo: cassandra.svg
+            twitter: 'https://twitter.com/cassandra'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              parents: []
+            github_data:
+              languages:
+                - name: Java
+                  value: 23001614
+                  color: '#b07219'
+                - name: Python
+                  value: 516846
+                  color: '#3572A5'
+                - name: HTML
+                  value: 264240
+                  color: '#e34c26'
+                - name: Shell
+                  value: 89875
+                  color: '#89e051'
+                - name: GAP
+                  value: 86159
+                - name: PowerShell
+                  value: 39040
+                  color: '#012456'
+                - name: Batchfile
+                  value: 38885
+                  color: '#C1F12E'
+                - name: Groovy
+                  value: 11484
+                  color: '#e69f56'
+                - name: Lex
+                  value: 10151
+                  color: '#DBCA00'
+                - name: AMPL
+                  value: 801
+                  color: '#E6EFBB'
+              contributions: 12;14;11;10;6;7;8;7;6;6;1;13;2;7;3;11;4;6;11;3;13;11;12;7;0;7;18;9;10;3;8;0;4;2;11;4;5;32;10;15;12;1;6;10;10;7;3;14;15;12;19;26
+              firstWeek: 2019-02-10Z
+              stars: 5721
+              license: Apache License 2.0
+              description: Mirror of Apache Cassandra
+              latest_commit_date: '2020-02-04T18:15:05Z'
+              latest_commit_link: /apache/cassandra/commit/cb4314ee96922f870f5b30d6594a42d2007a5bb2
+              contributors_count: 286
+              contributors_link: 'https://github.com/apache/cassandra/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /apache/cassandra/commit/1f91e99223b0d1b7ed8390400d4a06ac08e4aa85
+              start_date: '2009-03-02T07:57:22Z'
+            image_data:
+              fileName: cassandra.svg
+              hash: uLwkSuNKMpkxb99oqZQlVm6eRWxS6ntIqggmIpc8ZNs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-29T20:32:26.000Z
+          - item:
+            name: Infinispan
+            homepage_url: 'https://infinispan.org/'
+            repo_url: 'https://github.com/infinispan/infinispan'
+            stock_ticker: IBM
+            logo: infinispan.svg
+            twitter: 'https://twitter.com/infinispan'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Java
+                  value: 28570314
+                  color: '#b07219'
+                - name: Python
+                  value: 131482
+                  color: '#3572A5'
+                - name: GAP
+                  value: 77528
+                - name: XSLT
+                  value: 45961
+                  color: '#EB8CEB'
+                - name: Shell
+                  value: 40800
+                  color: '#89e051'
+                - name: Ruby
+                  value: 35900
+                  color: '#701516'
+                - name: JavaScript
+                  value: 10014
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 5199
+                  color: '#563d7c'
+                - name: Groovy
+                  value: 4485
+                  color: '#e69f56'
+                - name: Batchfile
+                  value: 3788
+                  color: '#C1F12E'
+                - name: Roff
+                  value: 2358
+                  color: '#ecdebe'
+                - name: HTML
+                  value: 28
+                  color: '#e34c26'
+              contributions: >-
+                13;18;14;6;8;22;15;14;8;9;5;17;14;21;14;27;18;20;23;27;12;22;24;14;12;25;9;8;26;43;32;56;36;37;39;29;30;58;27;37;23;19;19;40;31;20;7;1;22;28;13;9
+              firstWeek: 2019-02-10Z
+              stars: 788
+              license: Apache License 2.0
+              description: Infinispan is an open source data grid platform and highly scalable NoSQL cloud data store.
+              latest_commit_date: '2020-01-21T19:19:54Z'
+              latest_commit_link: /infinispan/infinispan/commit/d1418f4b0f93ec80bbe093c4405aa0d46be9c2a2
+              contributors_count: 145
+              contributors_link: 'https://github.com/infinispan/infinispan/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /infinispan/infinispan/commit/d58d881a60929eddbc944cfade618eed563266fc
+              start_date: '2009-03-18T15:22:57Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: infinispan.svg
+              hash: YVYARwuZwCGkAEjsYfRIAUgkRPCArzgnRbsejZa2ZgA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-12-23T21:25:42.000Z
+          - item:
+            name: Microsoft SQL Server
+            description: Data-Driven. Faster Insights. Breakthrough Performance. In-Memory Technology. Hybrid Data Platform.
+            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
+            logo: microsoft-sql-server.svg
+            twitter: 'https://twitter.com/SQLServer'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/Microsoft'
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              parents: []
+              ticker: MSFT
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1337396428800
+              effective_ticker: MSFT
+            image_data:
+              fileName: microsoft-sql-server.svg
+              hash: PwRWa/GvfQZ6H7oNJZbgBMXb8oeGWJ8ReWUhwR5jQKY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-31T23:00:01.000Z
+          - item:
+            name: MongoDB
+            homepage_url: 'https://www.mongodb.com/'
+            repo_url: 'https://github.com/mongodb/mongo'
+            logo: mongo-db.svg
+            open_source: false
+            twitter: 'https://twitter.com/MongoDBEng'
+            crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
+            crunchbase_data:
+              name: MongoDB
+              description: MongoDB is a next-generation database that helps businesses transform their industries by harnessing the power of data.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.mongodb.com'
+              city: New York
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/mongodb'
+              linkedin: 'https://www.linkedin.com/company/783611'
+              parents: []
+              ticker: MDB
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C++
+                  value: 46463016
+                  color: '#f34b7d'
+                - name: JavaScript
+                  value: 13156168
+                  color: '#f1e05a'
+                - name: Python
+                  value: 2895546
+                  color: '#3572A5'
+                - name: C
+                  value: 67162
+                  color: '#555555'
+                - name: Java
+                  value: 54337
+                  color: '#b07219'
+                - name: Shell
+                  value: 53686
+                  color: '#89e051'
+                - name: TLA
+                  value: 46607
+                - name: Rich Text Format
+                  value: 31575
+                - name: Ruby
+                  value: 10404
+                  color: '#701516'
+                - name: HTML
+                  value: 392
+                  color: '#e34c26'
+                - name: GDB
+                  value: 308
+                - name: Batchfile
+                  value: 8
+                  color: '#C1F12E'
+              contributions: >-
+                88;70;123;108;97;84;88;99;108;121;87;107;99;102;111;70;132;101;116;97;93;67;72;70;106;81;76;87;101;70;92;83;62;115;94;96;100;98;90;108;90;102;63;81;91;77;32;64;107;97;109;88
+              firstWeek: 2019-02-10Z
+              stars: 17425
+              license: Other
+              description: The MongoDB Database
+              latest_commit_date: '2020-02-04T23:59:44Z'
+              latest_commit_link: /mongodb/mongo/commit/35cf05881732c60b671fbe05c635dd623429c8ee
+              contributors_count: 397
+              contributors_link: 'https://github.com/mongodb/mongo/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /mongodb/mongo/commit/e73188b5512c82290a4070af4afddac20d0b981e
+              start_date: '2007-10-19T23:35:48Z'
+            yahoo_finance_data:
+              market_cap: 9768410112
+              effective_ticker: MDB
+            image_data:
+              fileName: mongo-db.svg
+              hash: 53HegU6SICNispNy+Hbooy0tyEYoxTps2hnw4bXUti0=
+            best_practice_data:
+              badge: 293
+              percentage: 79
+            twitter_data:
+              latest_tweet_date: 2019-12-22T18:12:13.000Z
+          - item:
+            name: Oracle Database
+            project: standard
+            description: 'The industry’s leading database continues to deliver leading-edge innovations, including machine learning, to enable self-driving data management.'
+            homepage_url: 'https://www.oracle.com/database/'
+            logo: oracle.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            crunchbase_data:
+              name: Oracle
+              description: Oracle is an integrated cloud applications and platform services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.oracle.com'
+              city: Redwood Shores
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/Oracle'
+              linkedin: 'https://www.linkedin.com/company/oracle/'
+              parents: []
+              ticker: ORCL
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 170544840704
+              effective_ticker: ORCL
+            image_data:
+              fileName: oracle-database.svg
+              hash: 1zeHp6YT2w2OO1Ku6sHV/7MjwkDpvkG1VnEH+G6MMe8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:23:37.000Z
+      - subcategory:
+        name: Streaming & Messaging
+        items:
+          - item:
+            name: Apache NiFi
+            homepage_url: 'https://nifi.apache.org/'
+            repo_url: 'https://github.com/apache/nifi'
+            logo: apache-ni-fi.svg
+            twitter: 'https://twitter.com/apachenifi'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              parents: []
+            github_data:
+              languages:
+                - name: Java
+                  value: 40517964
+                  color: '#b07219'
+                - name: JavaScript
+                  value: 3087152
+                  color: '#f1e05a'
+                - name: Groovy
+                  value: 2138028
+                  color: '#e69f56'
+                - name: HTML
+                  value: 713094
+                  color: '#e34c26'
+                - name: CSS
+                  value: 238624
+                  color: '#563d7c'
+                - name: Shell
+                  value: 83490
+                  color: '#89e051'
+                - name: GAP
+                  value: 30796
+                - name: Batchfile
+                  value: 21394
+                  color: '#C1F12E'
+                - name: Python
+                  value: 20318
+                  color: '#3572A5'
+                - name: Dockerfile
+                  value: 12380
+                  color: '#384d54'
+                - name: Ruby
+                  value: 8028
+                  color: '#701516'
+                - name: XSLT
+                  value: 5681
+                  color: '#EB8CEB'
+                - name: Clojure
+                  value: 3993
+                  color: '#db5855'
+                - name: Lua
+                  value: 983
+                  color: '#000080'
+                - name: C++
+                  value: 652
+                  color: '#f34b7d'
+              contributions: 13;13;20;5;10;13;12;11;21;11;10;3;8;10;7;11;15;12;9;8;9;9;4;11;12;11;10;11;10;16;35;18;18;17;11;20;13;25;22;6;9;9;4;6;16;9;1;12;20;18;6;8
+              firstWeek: 2019-02-10Z
+              stars: 1886
+              license: Apache License 2.0
+              description: Mirror of Apache NiFi
+              latest_commit_date: '2020-02-04T09:34:07Z'
+              latest_commit_link: /apache/nifi/commit/98f9b7c033a8d80ddf43aa77f63107703077d297
+              contributors_count: 281
+              contributors_link: 'https://github.com/apache/nifi/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /apache/nifi/commit/4d998c12c95a6e5ce3d66c0d861e75e33b5cf013
+              start_date: '2014-12-08T20:22:14Z'
+            image_data:
+              fileName: apache-ni-fi.svg
+              hash: RkQmk8OoEk7u4JRunupuxtMtlK0qTbVJmR5KV+k3wec=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-24T02:27:29.000Z
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: apache-spark.svg
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              parents: []
+            github_data:
+              languages:
+                - name: Scala
+                  value: 32344722
+                  color: '#c22d40'
+                - name: Java
+                  value: 4154272
+                  color: '#b07219'
+                - name: Python
+                  value: 3187897
+                  color: '#3572A5'
+                - name: HiveQL
+                  value: 1890736
+                  color: '#dce200'
+                - name: R
+                  value: 1188351
+                  color: '#198CE7'
+                - name: TSQL
+                  value: 474801
+                - name: PLpgSQL
+                  value: 380488
+                - name: JavaScript
+                  value: 210990
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 204874
+                  color: '#89e051'
+                - name: q
+                  value: 79845
+                  color: '#0040cd'
+                - name: Thrift
+                  value: 67584
+                - name: ANTLR
+                  value: 49740
+                  color: '#9DC3FF'
+                - name: HTML
+                  value: 40529
+                  color: '#e34c26'
+                - name: Roff
+                  value: 36552
+                  color: '#ecdebe'
+                - name: Batchfile
+                  value: 31352
+                  color: '#C1F12E'
+                - name: CSS
+                  value: 26969
+                  color: '#563d7c'
+                - name: SQLPL
+                  value: 9325
+                - name: Dockerfile
+                  value: 9006
+                  color: '#384d54'
+                - name: PLSQL
+                  value: 8320
+                  color: '#dad8d8'
+                - name: Makefile
+                  value: 7776
+                  color: '#427819'
+                - name: PowerShell
+                  value: 3865
+                  color: '#012456'
+                - name: C
+                  value: 1493
+                  color: '#555555'
+              contributions: >-
+                17;39;43;61;70;55;66;49;43;41;37;32;33;34;37;51;44;36;35;47;34;35;69;44;56;50;58;57;60;45;62;59;80;51;56;52;62;63;71;58;80;66;48;59;72;31;46;46;70;73;56;60
+              firstWeek: 2019-02-10Z
+              stars: 25043
+              license: Apache License 2.0
+              description: Apache Spark
+              latest_commit_date: '2020-02-04T13:17:05Z'
+              latest_commit_link: /apache/spark/commit/f2dd082544aeba5978d0c140d0194eedb969d132
+              contributors_count: 1465
+              contributors_link: 'https://github.com/apache/spark/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /apache/spark/commit/df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9
+              start_date: '2010-03-29T23:17:55Z'
+            image_data:
+              fileName: apache-spark.svg
+              hash: o7NwLi+8LmewwTWUVg55+hxApSCNSkCiA5w+h21uG7k=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-12-24T23:27:10.000Z
+          - item:
+            name: Kafka
+            homepage_url: 'https://kafka.apache.org/'
+            repo_url: 'https://github.com/apache/kafka'
+            logo: kafka.svg
+            twitter: 'https://twitter.com/apachekafka'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              parents: []
+            github_data:
+              languages:
+                - name: Java
+                  value: 20522506
+                  color: '#b07219'
+                - name: Scala
+                  value: 6997835
+                  color: '#c22d40'
+                - name: Python
+                  value: 915511
+                  color: '#3572A5'
+                - name: Shell
+                  value: 97244
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 30250
+                  color: '#C1F12E'
+                - name: XSLT
+                  value: 7116
+                  color: '#EB8CEB'
+                - name: Dockerfile
+                  value: 6608
+                  color: '#384d54'
+                - name: HTML
+                  value: 3739
+                  color: '#e34c26'
+              contributions: >-
+                16;24;32;24;43;23;21;13;18;19;27;19;28;33;49;28;37;22;26;23;13;20;24;16;12;21;20;20;17;14;20;19;24;25;36;35;41;21;17;26;31;21;13;31;17;18;3;17;36;25;13;29
+              firstWeek: 2019-02-10Z
+              stars: 14838
+              license: Apache License 2.0
+              description: Mirror of Apache Kafka
+              latest_commit_date: '2020-02-04T20:38:04Z'
+              latest_commit_link: /apache/kafka/commit/a16dfe673980a0d637287b63ec1e7340384806ac
+              contributors_count: 622
+              contributors_link: 'https://github.com/apache/kafka/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /apache/kafka/commit/642da2f28c9bc6e373603d6d9119ce33684090f5
+              start_date: '2011-08-01T23:41:24Z'
+            image_data:
+              fileName: kafka.svg
+              hash: 6+HMcqLdri1ZjEB8EUtnRcyFgU9SSKLAPmHVTiBSrQs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T16:29:17.000Z
+          - item:
+            name: Strimzi
+            homepage_url: 'https://strimzi.io/'
+            repo_url: 'https://github.com/strimzi/strimzi-kafka-operator'
+            logo: strimzi.svg
+            twitter: 'https://twitter.com/strimziio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Java
+                  value: 5969275
+                  color: '#b07219'
+                - name: Shell
+                  value: 122937
+                  color: '#89e051'
+                - name: Makefile
+                  value: 25121
+                  color: '#427819'
+                - name: Groovy
+                  value: 10653
+                  color: '#e69f56'
+                - name: Smarty
+                  value: 5474
+                - name: Dockerfile
+                  value: 5088
+                  color: '#384d54'
+                - name: Awk
+                  value: 257
+                - name: 1C Enterprise
+                  value: 204
+                  color: '#814CCC'
+              contributions: >-
+                16;27;29;29;14;15;12;17;31;30;61;37;15;10;15;22;17;27;9;9;14;18;16;32;17;12;16;13;6;13;15;17;14;14;18;22;20;17;8;19;21;22;19;19;17;7;2;19;22;18;23;35
+              firstWeek: 2019-02-10Z
+              stars: 1149
+              license: Apache License 2.0
+              description: Apache Kafka running on Kubernetes
+              latest_commit_date: '2020-02-04T23:35:04Z'
+              latest_commit_link: /strimzi/strimzi-kafka-operator/commit/5a0002245a0736468c1bfac45bf92195e18529b4
+              release_date: '2020-02-02T00:10:21Z'
+              release_link: 'https://github.com/strimzi/strimzi-kafka-operator/releases'
+              contributors_count: 67
+              contributors_link: 'https://github.com/strimzi/strimzi-kafka-operator/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /strimzi/strimzi-kafka-operator/commit/014e10aa7ed85dcafa4ad8c266e0a78550c63a86
+              start_date: '2016-05-06T08:52:33Z'
+            image_data:
+              fileName: strimzi.svg
+              hash: XOT61Z3xWhhePcETDdvGLm8lsC6zijJo3kZYy8FhVdA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T19:47:16.000Z
+      - subcategory:
+        name: Product Management
+        items:
+          - item:
+            name: iServer
+            description: Application Portfolio Management tool
+            project: standard
+            delta_owner: Kim-Prindle
+            homepage_url: 'https://iserver.delta.com/'
+            logo: orbus.svg
+            open_source: false
+            crunchbase: 'https://www.crunchbase.com/organization/orbus-software'
+            image_data:
+              fileName: i-server.svg
+              hash: nrp1eZ97bSJojFeYi+UdJVWEU530vXc7w65YdxmSZc0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Service Now (CMDB)
+            description: Software platform which supports IT Service Management (ITSM). It helps you to automate IT Business Management (ITBM).
+            project: standard
+            delta_owner: Infra & Ops
+            homepage_url: 'https://deltasn.service-now.com/sp'
+            stock_ticker: NOW
+            open_source: false
+            twitter: 'https://twitter.com/servicenow'
+            logo: snow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/service-now-com'
+            image_data:
+              fileName: service-now-cmdb.svg
+              hash: RS6gcGbipe7WhuQt4dq/BEPikviUlkHg10gpZw5VtH8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-14T16:55:55.000Z
+      - subcategory:
+        name: CI/CD
+        items:
+          - item:
+            name: Jenkins
+            project: standard
+            homepage_url: 'https://jenkins.io/'
+            repo_url: 'https://github.com/jenkinsci/jenkins'
+            logo: jenkins.svg
+            twitter: 'https://twitter.com/jenkinsci'
+            crunchbase: 'https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf'
+            crunchbase_data:
+              name: Continuous Delivery Foundation (CDF)
+              description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://cd.foundation'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CDeliveryFdn'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Java
+                  value: 10478146
+                  color: '#b07219'
+                - name: HTML
+                  value: 976967
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 384565
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 316685
+                  color: '#563d7c'
+                - name: Groovy
+                  value: 73312
+                  color: '#e69f56'
+                - name: Ruby
+                  value: 19375
+                  color: '#701516'
+                - name: Perl
+                  value: 14718
+                  color: '#0298c3'
+                - name: Shell
+                  value: 10545
+                  color: '#89e051'
+                - name: GAP
+                  value: 6289
+                - name: C
+                  value: 2091
+                  color: '#555555'
+                - name: Dockerfile
+                  value: 1147
+                  color: '#384d54'
+                - name: Batchfile
+                  value: 1023
+                  color: '#C1F12E'
+              contributions: >-
+                21;16;74;17;15;11;40;31;56;33;19;18;21;27;22;15;7;10;21;10;37;18;35;13;9;10;20;21;29;27;36;18;27;40;40;29;36;20;26;28;32;19;14;24;7;18;11;35;57;24;31;4
+              firstWeek: 2019-02-10Z
+              stars: 14838
+              license: MIT License
+              description: Jenkins automation server
+              latest_commit_date: '2020-02-04T12:07:02Z'
+              latest_commit_link: /jenkinsci/jenkins/commit/3b4ac78ca63abe83c4b22eab4debc764dc67a707
+              release_date: '2020-01-27T22:36:30Z'
+              release_link: 'https://github.com/jenkinsci/jenkins/releases'
+              contributors_count: 599
+              contributors_link: 'https://github.com/jenkinsci/jenkins/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /jenkinsci/jenkins/commit/8a0dc230f44e84e5a7f7920cf9a31f09a54999ac
+              start_date: '2006-11-05T21:16:01Z'
+            image_data:
+              fileName: jenkins.svg
+              hash: NF6wJqVGQ/KuagjWw5zBa9rK75/gL28x92et53olJF8=
+            best_practice_data:
+              badge: 3538
+              percentage: 80
+            twitter_data:
+              latest_tweet_date: 2020-02-04T14:07:40.000Z
+  - category:
+    name: Platform
+    subcategories:
+      - subcategory:
+        name: Private Cloud
+        items:
+          - item:
+            name: Red Hat OpenShift
+            delta_owner: Flynn Galbraith
+            project: standard
+            description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
+            homepage_url: 'https://www.openshift.com/'
+            repo_url: 'https://github.com/openshift/origin'
+            stock_ticker: IBM
+            logo: red-hat-open-shift.svg
+            twitter: 'https://twitter.com/openshift'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Go
+                  value: 2283249
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 310275
+                  color: '#89e051'
+                - name: Python
+                  value: 14593
+                  color: '#3572A5'
+                - name: Makefile
+                  value: 6395
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 2240
+                  color: '#384d54'
+                - name: Awk
+                  value: 921
+              contributions: >-
+                65;92;83;100;95;107;81;55;139;95;79;124;99;46;52;88;182;156;102;110;58;42;48;92;75;53;39;41;45;65;68;62;47;23;36;30;31;51;72;41;46;36;25;39;50;40;1;16;27;30;26;11
+              firstWeek: 2019-02-10Z
+              stars: 7196
+              license: Apache License 2.0
+              description: 'The self-managing, auto-upgrading, Kubernetes distribution for everyone'
+              latest_commit_date: '2020-02-04T22:15:19Z'
+              latest_commit_link: /openshift/origin/commit/c8d645b83b6ae511f42fa82eea08b064f93d5f47
+              release_date: '2018-10-11T15:53:16Z'
+              release_link: 'https://github.com/openshift/origin/releases'
+              contributors_count: 375
+              contributors_link: 'https://github.com/openshift/origin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openshift/origin/commit/e0a5699f2049372633b18c43a98a522999b1f297
+              start_date: '2014-07-30T18:17:42Z'
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: red-hat-open-shift.svg
+              hash: kb/17/2xUHjZ2JlPB9yF1Gyn7j6/fpU3rmd4rqPDQmo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T23:00:43.000Z
+      - subcategory:
+        name: Public Cloud
+        items:
+          - item:
+            name: Amazon Elastic Container Service for Kubernetes (EKS)
+            description: >-
+              Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without
+              needing to install and operate your own Kubernetes clusters.
+            homepage_url: 'https://aws.amazon.com/eks/'
+            logo: amazon-web-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: amazon-elastic-container-service-for-kubernetes-eks.svg
+              hash: SAaCDzEl11DXhCLfuUg3THlbYtVlQILQOhezT64IiU8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:08:24.000Z
+  - category:
+    name: Observability and Analysis
+    subcategories:
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            name: Amazon CloudWatch
+            project: standard
+            description: >-
+              Amazon CloudWatch is a monitoring and management service built for developers, system operators, site reliability engineers (SRE), and IT
+              managers. CloudWatch provides you with data and actionable insights to monitor your applications, understand and respond to system-wide
+              performance changes, optimize resource utilization, and get a unified view of operational health.
+            homepage_url: 'https://aws.amazon.com/cloudwatch/'
+            logo: amazon-cloudwatch.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: amazon-cloud-watch.svg
+              hash: N/3kQl4EvjfVaP0Jd9ijuMh28DI4eDl51MiDAeaqhh4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:08:24.000Z
+          - item:
+            name: Dynatrace
+            project: standard
+            homepage_url: 'https://www.dynatrace.com/'
+            stock_ticker: null
+            logo: dynatrace.svg
+            crunchbase: 'https://www.crunchbase.com/organization/dynatrace-software'
+            crunchbase_data:
+              name: Dynatrace
+              description: 'Dynatrace transform how Web and non-Web business-critical applications are monitored, managed, and optimized throughout their lifecycle.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.dynatrace.com'
+              city: Waltham
+              region: Massachusetts
+              country: United States
+              twitter: 'http://twitter.com/Dynatrace'
+              linkedin: 'https://www.linkedin.com/company/dynatrace'
+              parents: []
+              ticker: DT
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 9089496064
+              effective_ticker: DT
+            image_data:
+              fileName: dynatrace.svg
+              hash: LizDYX8LV36I7gS03dznExTSe74DbiZEDN02vWG/R6Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:14:24.000Z
+          - item:
+            name: Grafana
+            homepage_url: 'https://grafana.com/'
+            project: emerging
+            repo_url: 'https://github.com/grafana/grafana'
+            logo: grafana.svg
+            crunchbase: 'https://www.crunchbase.com/organization/raintank'
+            crunchbase_data:
+              name: Grafana Labs
+              description: 'Grafana Labs is behind leading open source projects Grafana and Loki, and the creator of the first open & composable observability platform.'
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'http://grafana.com'
+              city: New York
+              region: New York
+              country: United States
+              twitter: 'https://www.twitter.com/grafana'
+              linkedin: 'https://www.linkedin.com/company/grafana-labs/'
+              parents: []
+              kind: funding
+              funding: 25230000
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 5634241
+                  color: '#2b7489'
+                - name: Go
+                  value: 3061459
+                  color: '#00ADD8'
+                - name: HTML
+                  value: 510846
+                  color: '#e34c26'
+                - name: Rich Text Format
+                  value: 352348
+                - name: CSS
+                  value: 306676
+                  color: '#563d7c'
+                - name: Shell
+                  value: 106667
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 64106
+                  color: '#f1e05a'
+                - name: Python
+                  value: 34664
+                  color: '#3572A5'
+                - name: Jsonnet
+                  value: 32079
+                  color: '#0064bd'
+                - name: Dockerfile
+                  value: 31518
+                  color: '#384d54'
+                - name: Makefile
+                  value: 6544
+                  color: '#427819'
+                - name: Smarty
+                  value: 2116
+                - name: PHP
+                  value: 574
+                  color: '#4F5D95'
+              contributions: >-
+                264;182;122;128;322;236;168;55;54;62;36;53;54;72;49;53;31;31;59;41;43;58;45;34;29;53;38;37;30;51;47;79;71;63;73;50;50;22;54;75;51;69;55;74;51;51;18;33;50;90;68;44
+              firstWeek: 2019-02-10Z
+              stars: 33258
+              license: Apache License 2.0
+              description: 'The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More'
+              latest_commit_date: '2020-02-04T22:14:42Z'
+              latest_commit_link: /grafana/grafana/commit/88226672f19916fbc0282e97ac5d88059cf14b54
+              release_date: '2020-01-27T14:10:00Z'
+              release_link: 'https://github.com/grafana/grafana/releases'
+              contributors_count: 1040
+              contributors_link: 'https://github.com/grafana/grafana/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /grafana/grafana/commit/75d03fc49ab4f95ee414f730563f14cbdad9ee64
+              start_date: '2013-01-26T04:00:59Z'
+            image_data:
+              fileName: grafana.svg
+              hash: DAaAaoF0A9uI0URjZ3Qyw53lUhTNGjK0293mLIM8hzY=
+            best_practice_data:
+              badge: 3252
+              percentage: 41
+            twitter_data:
+              latest_tweet_date: 2020-02-04T17:56:14.000Z
+          - item:
+            name: Prometheus
+            homepage_url: 'https://prometheus.io/'
+            project: emerging
+            repo_url: 'https://github.com/prometheus/prometheus'
+            logo: prometheus.svg
+            twitter: 'https://twitter.com/PrometheusIO'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Go
+                  value: 2487813
+                  color: '#00ADD8'
+                - name: TypeScript
+                  value: 200227
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 63613
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 53660
+                  color: '#e34c26'
+                - name: Yacc
+                  value: 24326
+                  color: '#4B6C4B'
+                - name: CSS
+                  value: 13173
+                  color: '#563d7c'
+                - name: Shell
+                  value: 5953
+                  color: '#89e051'
+                - name: Lex
+                  value: 5940
+                  color: '#DBCA00'
+                - name: Makefile
+                  value: 3991
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 1298
+                  color: '#384d54'
+              contributions: >-
+                39;34;30;28;27;22;18;15;13;21;19;22;8;9;21;19;10;20;23;20;26;26;20;13;13;14;23;14;13;9;14;9;16;11;13;19;27;26;17;14;17;27;11;22;26;30;4;17;35;32;19;16
+              firstWeek: 2019-02-10Z
+              stars: 28978
+              license: Apache License 2.0
+              description: The Prometheus monitoring system and time series database.
+              latest_commit_date: '2020-02-03T21:47:03Z'
+              latest_commit_link: /prometheus/prometheus/commit/a53e00f9fdd85d706c46adac167628fc39c4edcc
+              release_date: '2020-01-31T22:50:12Z'
+              release_link: 'https://github.com/prometheus/prometheus/releases'
+              contributors_count: 437
+              contributors_link: 'https://github.com/prometheus/prometheus/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /prometheus/prometheus/commit/734d28b515026ca9f429eba0a7d09954bceb6387
+              start_date: '2012-11-24T11:14:12Z'
+            image_data:
+              fileName: prometheus.svg
+              hash: I4EIFdktueFkVsEYWbEPTL1eNE4bMe2BiLdqynSWjOk=
+            best_practice_data:
+              badge: 486
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-02-04T09:08:55.000Z
+          - item:
+            name: Riverbed
+            description: 'Cloud-native, scalable, high-definition application performance monitoring (APM) for next gen apps.'
+            homepage_url: 'https://www.riverbed.com/products/steelcentral/steelcentral-appinternals.html'
+            stock_ticker: null
+            logo: riverbed.svg
+            crunchbase: 'https://www.crunchbase.com/organization/riverbed-technology'
+            crunchbase_data:
+              name: Riverbed Technology
+              description: Riverbed Technology is a solution provider for fundamental problems associated with IT performance across wide area networks.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.riverbed.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/riverbed'
+              linkedin: 'https://www.linkedin.com/company/riverbed-technology'
+              parents: []
+              kind: funding
+              funding: 28400000
+            image_data:
+              fileName: riverbed.svg
+              hash: qQcAEIcO3iLEn+4dXXPCxX3FPXLjkaKt8LO7AdWCeqc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-04T21:49:03.000Z
+      - subcategory:
+        name: Logging
+        items:
+          - item:
+            name: Fluentd
+            homepage_url: 'https://www.fluentd.org/'
+            project: standard
+            repo_url: 'https://github.com/fluent/fluentd'
+            logo: fluentd.svg
+            twitter: 'https://twitter.com/fluentd'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Ruby
+                  value: 2822539
+                  color: '#701516'
+                - name: HTML
+                  value: 5955
+                  color: '#e34c26'
+              contributions: 1;9;29;14;5;7;8;14;1;5;23;15;0;10;2;4;33;16;30;13;2;32;53;60;51;27;26;62;8;12;15;5;4;10;2;16;12;51;16;6;12;8;19;15;23;12;19;14;13;24;23;29
+              firstWeek: 2019-02-10Z
+              stars: 8807
+              license: Apache License 2.0
+              description: 'Fluentd: Unified Logging Layer (project under CNCF)'
+              latest_commit_date: '2020-02-04T06:14:04Z'
+              latest_commit_link: /fluent/fluentd/commit/0e072e708b722304db64b2d60600c5e2c80dbe9d
+              contributors_count: 187
+              contributors_link: 'https://github.com/fluent/fluentd/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /fluent/fluentd/commit/5c14d05ff44d08d180f5d6de8bbedf3f84a23d25
+              start_date: '2011-06-18T22:36:35Z'
+            image_data:
+              fileName: fluentd.svg
+              hash: 4rqVszCNGyGj0JlRDv8QmnVezBDIWy2qP53qAkwDxJU=
+            best_practice_data:
+              badge: 1189
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-02-03T18:00:21.000Z
+          - item:
+            name: Sumo Logic
+            project: standard
+            homepage_url: 'https://www.sumologic.com/'
+            logo: sumologic.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sumo-logic'
+            crunchbase_data:
+              name: Sumo Logic
+              description: 'Sumo Logic, a log management and analytics service, transforms big data into sources of operations, security, and compliance intelligence.'
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: 'http://www.sumologic.com'
+              city: Redwood City
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/sumologic'
+              linkedin: 'https://www.linkedin.com/company/sumo-logic'
+              parents: []
+              kind: funding
+              funding: 340000000
+            image_data:
+              fileName: sumo-logic.svg
+              hash: IDXkWYHd8N+WBeS+fXxdWR76uEmmBUnL1jrTf6pnw9s=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:15:01.000Z
+      - subcategory:
+        name: Tracing
+        items:
+          - item:
+            name: Jaeger
+            homepage_url: 'https://www.jaegertracing.io/'
+            project: standard
+            repo_url: 'https://github.com/jaegertracing/jaeger'
+            logo: jaeger.svg
+            twitter: 'https://twitter.com/JaegerTracing'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Go
+                  value: 1958429
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 25097
+                  color: '#89e051'
+                - name: Python
+                  value: 20811
+                  color: '#3572A5'
+                - name: Makefile
+                  value: 20052
+                  color: '#427819'
+                - name: Jsonnet
+                  value: 9018
+                  color: '#0064bd'
+                - name: Dockerfile
+                  value: 2300
+                  color: '#384d54'
+                - name: HTML
+                  value: 567
+                  color: '#e34c26'
+              contributions: 7;14;10;8;8;5;5;2;8;4;5;8;6;3;7;5;4;3;3;5;12;5;4;3;5;6;9;8;6;5;4;6;3;4;2;13;3;3;2;9;4;5;4;7;7;6;7;5;5;6;5;3
+              firstWeek: 2019-02-10Z
+              stars: 10146
+              license: Apache License 2.0
+              description: 'CNCF Jaeger, a Distributed Tracing Platform'
+              latest_commit_date: '2020-02-02T20:36:22Z'
+              latest_commit_link: /jaegertracing/jaeger/commit/c29449a6690c870304d697eec0a486f9cb215658
+              release_date: '2019-12-17T11:31:43Z'
+              release_link: 'https://github.com/jaegertracing/jaeger/releases'
+              contributors_count: 128
+              contributors_link: 'https://github.com/jaegertracing/jaeger/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /jaegertracing/jaeger/commit/4dc35c9e83518c339cbf0bc52c7b39cd028e7659
+              start_date: '2016-04-18T22:22:11Z'
+            image_data:
+              fileName: jaeger.svg
+              hash: liGBqZr114ntZFMesZBeGxJAAynVF8pRhqzNoPGO2PQ=
+            best_practice_data:
+              badge: 1273
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-02-04T01:00:12.000Z
+      - subcategory:
+        name: Chaos Engineering
+        items: null
+  - category:
+    name: Special
+    subcategories:
+      - subcategory:
+        name: K8S Service Provider
+        items: null
+      - subcategory:
+        name: Training Partner
+        items:
+          - item:
+            name: Pluralsight
+            logo: pluralsight.svg
+            description: >-
+              Pluralsight, Inc. is an American publicly held online education company that offers a variety of video training courses for software developers,
+              IT administrators, and creative professionals through its website
+            open_source: false
+            homepage_url: 'https://www.pluralsight.com/'
+            twitter: 'https://twitter.com/pluralsight'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: pluralsight.svg
+              hash: LMj8tW10cmg5/wDcM67KUCB39AsE10FL5L2/TVnUGd4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-13T21:31:56.000Z
+  - category:
+    name: Delta Partners
+    subcategories:
+      - subcategory:
+        name: Corporate
+        items:
+          - item:
+            name: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/'
+            logo: amazon-web-services.svg
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase_data:
+              name: Amazon Web Services
+              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://aws.amazon.com'
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/awscloud'
+              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
+              parents:
+                - 'https://www.crunchbase.com/organization/amazon'
+              ticker: AMZN
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1020346171392
+              effective_ticker: AMZN
+            image_data:
+              fileName: amazon-web-services.svg
+              hash: SAaCDzEl11DXhCLfuUg3THlbYtVlQILQOhezT64IiU8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:08:24.000Z
+          - item:
+            name: Cisco
+            homepage_url: 'https://www.cisco.com/'
+            logo: cisco-container-platform.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cisco'
+            image_data:
+              fileName: cisco.svg
+              hash: wiy5XmIHgxGtHSAKZ4ChqzRlw/dtnZuAOHdBiGvGbvM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: IBM
+            homepage_url: 'https://www.ibm.com/cloud'
+            logo: ibm-cloud.svg
+            twitter: 'https://twitter.com/IBMcloud'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            image_data:
+              fileName: ibm.svg
+              hash: eZxIibwudBXqy3VKTpiGHKR9vnXpA0wXTm0/gOJDssc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T15:02:37.000Z
+          - item:
+            name: Microsoft
+            homepage_url: 'https://azure.microsoft.com/en-us/'
+            logo: microsoft-azure.svg
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/Microsoft'
+              linkedin: 'https://www.linkedin.com/company/microsoft'
+              parents: []
+              ticker: MSFT
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1337396428800
+              effective_ticker: MSFT
+            image_data:
+              fileName: microsoft.svg
+              hash: 0H5XdM1E6Sv5bxH503eF6kmNaasXX5vEXWOeB8AcZS0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T18:06:09.000Z
+          - item:
+            name: NetApp
+            homepage_url: 'https://www.netapp.com/us/index.aspx'
+            logo: netapp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/netapp'
+            crunchbase_data:
+              name: NetApp
+              description: NetApp is a hybrid cloud data services company .
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://netapp.com'
+              city: Sunnyvale
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/netapp'
+              linkedin: 'https://www.linkedin.com/company/netapp'
+              parents: []
+              ticker: NTAP
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 12753268736
+              effective_ticker: NTAP
+            image_data:
+              fileName: net-app.svg
+              hash: YevIT4IJuVWaQxc1IkVBAtf893vQswuX2tT6uqHExBc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-05T00:07:10.000Z
+          - item:
+            name: Oracle
+            homepage_url: 'https://www.oracle.com/index.html'
+            logo: oracle.svg
+            twitter: 'https://twitter.com/oraclecloud'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            crunchbase_data:
+              name: Oracle
+              description: Oracle is an integrated cloud applications and platform services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.oracle.com'
+              city: Redwood Shores
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/Oracle'
+              linkedin: 'https://www.linkedin.com/company/oracle/'
+              parents: []
+              ticker: ORCL
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 170544840704
+              effective_ticker: ORCL
+            image_data:
+              fileName: oracle.svg
+              hash: 1zeHp6YT2w2OO1Ku6sHV/7MjwkDpvkG1VnEH+G6MMe8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T17:15:16.000Z
+          - item:
+            name: Palo Alto Networks
+            homepage_url: 'https://www.paloaltonetworks.com/'
+            logo: palo-alto-networks.svg
+            crunchbase: 'https://www.crunchbase.com/organization/palo-alto-networks'
+            image_data:
+              fileName: palo-alto-networks.svg
+              hash: 0nC9u+hF1AeMis2tJPzj7oyJCYNZvNQwjsiMTwCp/9U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Red Hat
+            homepage_url: 'https://www.redhat.com/en'
+            stock_ticker: IBM
+            logo: 'https://www.cncf.io/wp-content/uploads/2016/09/red-hat-01.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhat'
+              linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
+              ticker: RHT
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 129764171776
+              effective_ticker: IBM
+            image_data:
+              fileName: red-hat.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T17:33:01.000Z
+          - item:
+            name: SAP
+            homepage_url: 'https://www.sap.com/index.html'
+            logo: sap-kcsp.svg
+            twitter: 'https://twitter.com/sapcp'
+            crunchbase: 'https://www.crunchbase.com/organization/sap'
+            image_data:
+              fileName: sap.svg
+              hash: lOZKDsQj0ksm49WOZpFzL6sJkz8lPx7TVBA02mtRyEs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T13:31:41.000Z
+          - item:
+            name: VMware
+            homepage_url: 'https://www.vmware.com/'
+            logo: vmware.svg
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            crunchbase_data:
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.vmware.com'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'https://www.linkedin.com/company/vmware'
+              parents:
+                - 'https://www.crunchbase.com/organization/emc'
+              ticker: VMW
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 64071479296
+              effective_ticker: VMW
+            image_data:
+              fileName: v-mware.svg
+              hash: JqVq7SzPJ3mypuVvJxR2dg+bkSbc/8FT5T2+hKz3Q9g=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-20T17:04:09.000Z
+      - subcategory:
+        name: Academic
+        items:
+          - item:
+            name: Georgia Institute of Technology (example)
+            homepage_url: 'https://www.gatech.edu/'
+            twitter: 'https://twitter.com/GeorgiaTech'
+            logo: gaTech.svg
+            crunchbase: 'https://www.crunchbase.com/organization/georgia-institute-of-technology'
+            image_data:
+              fileName: georgia-institute-of-technology-example.svg
+              hash: cbHbBmlYqfb7LgwpjDL+2mhrxuPMJcWpmgisUytke/8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-13T21:37:13.000Z
+  - category:
+    name: API
+    subcategories:
+      - subcategory:
+        name: Security
+        items: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Apigee Gateway
+            homepage_url: 'http://cloud.google.com/apigee/'
+            stock_ticker: GOOGL
+            open_source: false
+            project: standard
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+            crunchbase_data:
+              name: Google
+              description: Google is a multinational corporation that specializes in Internet-related services and products.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.google.com/'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/google'
+              linkedin: 'https://www.linkedin.com/company/google'
+              parents:
+                - 'https://www.crunchbase.com/organization/alphabet'
+              ticker: GOOG
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 996899487744
+              effective_ticker: GOOG
+            image_data:
+              fileName: apigee-gateway.svg
+              hash: zEMFdEcwjW1jH4G/6ipmKDuA9mVomYpBtKbnfD4F65c=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-02-13T18:05:55.000Z
+      - subcategory:
+        name: Framework
+        items: null
+      - subcategory:
+        name: Hosted Platform
+        items: null
+      - subcategory:
+        name: On-Prem. Platform
+        items: null
+twitter_options:
+  count: 0
