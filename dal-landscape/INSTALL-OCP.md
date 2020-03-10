@@ -4,6 +4,23 @@
 1 - As a (recommended) [Ansible deployed OpenShift project](#running-in-openshift-via-applier-ansible)
 2 - For [Sandbox or local workstation/laptop](INSTALL.md) 
 
+## Install (Linux RHEL 7)
+
+```shell
+# 1. Install the collection:
+$ sudo yum install -y gcc-c++ make
+
+# Build and Update https://www.zlib.net/ - 1.2.9
+    # ./configure; make; make install
+    # cd /lib/
+    # ln -s -f /usr/local/lib/libz.so.1.2.9/lib libz.so.1
+
+$ sudo yum install rh-nodejs10
+
+# 2. Start using software collections:
+$ scl enable rh-nodejs10 bash
+```
+
 ## Running in OpenShift (Via Applier & Ansible)
 ---
 
