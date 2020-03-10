@@ -7,23 +7,18 @@
 ## Install (Linux RHEL 7)
 
 ```shell
-# 1. Install the collection:
+# If *nix is clean build, install the collections:
+$ ssh D9192067@sxnda85346.cloudlab.delta.com
 $ sudo yum install -y gcc-c++ make
-
-# Build and Update https://www.zlib.net/ - 1.2.9
-    # ./configure; make; make install
-    # cd /lib/
-    # ln -s -f /usr/local/lib/libz.so.1.2.9/lib libz.so.1
-
 $ sudo yum install rh-nodejs10
-
-# 2. Start using software collections:
+$ #TODO:  Update zlib to 1.2.9 See ../landscapeapp/lib/README.md
+# Enable Software Collections
 $ scl enable rh-nodejs10 bash
 ```
+## Update helper alias and functions 
+[Update .bash_profile] (INSTALL.md)
 
 ## Running in OpenShift (Via Applier & Ansible)
----
-
 ### Run Applier/Ansible tasks ###
 
 *NOTE:* Either run within Windows CMD Prompt, Mac Terminal Shell, or UNIX Shell.  There are problems/bugs if trying to run within Git for Windows Shell.
