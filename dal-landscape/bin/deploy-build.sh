@@ -145,7 +145,7 @@ call_ansible(){
 
   ansible-galaxy install -r .applier/requirements.yml --roles-path=galaxy
   if [ $? == 0 ]; then  
-    CMD="ansible-playbook -i .applier/inventory-build-310/ galaxy/openshift-applier/playbooks/openshift-cluster-seed.yml \
+    CMD="ansible-playbook -i .applier/inventory-build/ galaxy/openshift-applier/playbooks/openshift-cluster-seed.yml \
             -e source_repository_url=${SOURCE_REPOSITORY_URL} \
             -e source_repository_ref=${SOURCE_REPOSITORY_BRANCH} \
             -e namespace=${NAMESPACE} "
