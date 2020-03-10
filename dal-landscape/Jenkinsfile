@@ -57,7 +57,7 @@ pipeline {
       steps {
         applier(secretName: "pipeline-sbx",
                 registryUrl: "https://api.sr1a1.paasdev.delta.com:6443",
-                inventoryPath: ".applier/inventory-dvl/",
+                inventoryPath: ".applier/inventory-deploy/",
                 requirementsPath: ".applier/requirements.yml",
                 skipTlsVerify: true )
       }
