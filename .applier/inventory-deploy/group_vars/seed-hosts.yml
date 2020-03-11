@@ -13,7 +13,7 @@ openshift_cluster_content:
   content:
   - name: "create route"
     template: "{{ inventory_dir }}/../../.openshift/templates/route.yml"
-    params: "{{ inventory_dir }}/../../.openshift/params/route-{{ lifecycle }}-4"
+    params: "{{ inventory_dir }}/../../.openshift/params/route-{{ lifecycle }}"
     params_from_vars:
       NAMESPACE: "{{ namespace }}"
 

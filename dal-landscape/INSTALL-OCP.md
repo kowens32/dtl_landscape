@@ -64,7 +64,7 @@ ansible-galaxy install -r .applier/requirements.yml --roles-path=galaxy
 ansible-playbook -i .applier/inventory-sbx/ galaxy/openshift-applier/playbooks/openshift-cluster-seed.yml \
                 -e namespace=${NAMESPACE}
 
-# For Enterprise Pipelines see ./bin/deloy-build.sh
+# For Enterprise Pipelines see ./bin/deloy-build.sh dtlandscape-build
 ```
 
 Check out the finished deployment
