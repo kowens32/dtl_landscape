@@ -59,7 +59,7 @@ pipeline {
       steps {
         applier(secretName: "${PIPELINE_SERCRET}",
                 registryUrl: "${DVL_API}",
-                inventoryPath: ".applier/inventory-deploy/",
+                inventoryPath: ".applier/inventory-dvl/",
                 requirementsPath: ".applier/requirements.yml",
                 skipTlsVerify: true )
       }
