@@ -6,7 +6,7 @@ openshift.withCluster() {
   env.ARTIFACT_DIRECTORY = "dal-landscape/dist/"
   env.BUILD_ENV = "dtlandscape-build"
   env.DVL_ENV = "dtlandscape-dvl"
-  env.DVL_CONSOLE = "https://console-openshift-console.apps.dr1a1.paasdev.delta.com:443"
+  env.DVL_API = "https://api.dr1a1.paasdev.delta.com:6443"
   env.PIPELINE_SERCRET = "pipeline-dr1a1"
 }
 
@@ -58,7 +58,7 @@ pipeline {
 
       steps {
         applier(secretName: "${PIPELINE_SERCRET}",
-                consoleUrl: "${DVL_CONSOLE}",
+                registryUrl: "${DVL_API}",
                 inventoryPath: ".applier/inventory-dvl/",
                 requirementsPath: ".applier/requirements.yml",
                 skipTlsVerify: true )
