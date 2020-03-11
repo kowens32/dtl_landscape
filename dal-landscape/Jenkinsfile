@@ -66,17 +66,19 @@ pipeline {
     }
 
     stage('Tag Image from Build to Dev') {
-        steps {
-            tagImage(sourceImageName: "${APP_NAME}",
-                     sourceImagePath: "${BUILD_ENV}",
-                     sourceImageTag: "latest",
-                     toImageName: "${APP_NAME}",
-                     toImagePath: "${DVL_ENV}",
-                     toImageTag: "latest")
-        }
+      agent { label 'applier' }
+      steps {
+          tagImage(sourceImageName: "${APP_NAME}",
+                   sourceImagePath: "${BUILD_ENV}",
+                   sourceImageTag: "latest",
+                   toImageName: "${APP_NAME}",
+                   toImagePath: "${DVL_ENV}",
+                   toImageTag: "latest")
+      }
     }
     
     stage ("Verify Deployment to DVL") {
+      agent { label 'applier' }
       steps {
           verifyDeployment(targetApp: "${APP_NAME}", projectName: "${DVL_ENV}")
       }
