@@ -5,7 +5,8 @@ openshift.withCluster() {
   env.SBX_ENV = openshift.project()
   env.ARTIFACT_DIRECTORY = "dal-landscape/dist/"
   env.BUILD_ENV = "dtlandscape-build"
-  env.DPL_ENV = "dtlandscape-deploy"
+  env.DVL_ENV = "dtlandscape-dvl"
+  env.DVL_API = "https://api.dr1a1.paasdev.delta.com:6443"
 }
 
 pipeline {
@@ -55,28 +56,28 @@ pipeline {
       agent { label 'applier' }
 
       steps {
-        applier(secretName: "pipeline-sbx",
-                registryUrl: "https://api.sr1a1.paasdev.delta.com:6443",
+        applier(secretName: "pipeline-dvl",
+                registryUrl: "${DVL_API}",
                 inventoryPath: ".applier/inventory-deploy/",
                 requirementsPath: ".applier/requirements.yml",
                 skipTlsVerify: true )
       }
     }
 
-    stage('Tag Image from Build to Deploy') {
+    stage('Tag Image from Build to Dev') {
         steps {
             tagImage(sourceImageName: "${APP_NAME}",
                      sourceImagePath: "${BUILD_ENV}",
                      sourceImageTag: "latest",
                      toImageName: "${APP_NAME}",
-                     toImagePath: "${DPL_ENV}",
+                     toImagePath: "${DVL_ENV}",
                      toImageTag: "latest")
         }
     }
     
-    stage ("Verify Deployment to DPL") {
+    stage ("Verify Deployment to DVL") {
       steps {
-          verifyDeployment(targetApp: "${APP_NAME}", projectName: "${DPL_ENV}")
+          verifyDeployment(targetApp: "${APP_NAME}", projectName: "${DVL_ENV}")
       }
     }
   }

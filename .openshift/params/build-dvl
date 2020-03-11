@@ -2,5 +2,3 @@ APPLICATION_NAME=dtl-landscape
 JENKINSFILE_PATH=dal-landscape/Jenkinsfile
 NGINX_IMAGE_STREAM=delta-nginx114-openshift
 NGINX_TAG=1
-SOURCE_REPOSITORY_REF=master
-SOURCE_REPOSITORY_URL=https://git.delta.com/ea/dtl_landscape.git

@@ -1,4 +1,4 @@
-namespace: ea-dvl
+namespace: dtlandscape-dvl
 lifecycle: dvl
 
 openshift_cluster_content:

@@ -24,9 +24,6 @@ $ scl enable rh-nodejs10 bash
 *NOTE:* Either run within Windows CMD Prompt, Mac Terminal Shell, or UNIX Shell.  There are problems/bugs if trying to run within Git for Windows Shell.
 
 ```shell
-# if 3.10
-oc login https://dvl1con.paasdev.delta.com:443 
-
 # If deployment to 4.2, 
 oc login https://api.sr1a1.paasdev.delta.com:6443
 
@@ -42,12 +39,7 @@ oc project ${MY_PROJECT}
 # REQUIRED_TODO: Update variables in the .openshift/params/*.*  (Specific attendtion to: NAMESPACE and SOURCE_REPOSITORY_URL Repo. )
 
 # Next, let's install Jenkins (if needed)
-
-# For 4.2
 oc process openshift//delta-jenkins | oc apply -f- 
-
-# For 3.x
-oc process openshift//delta-jenkins-v3-11 | oc apply -f-
 
 #NOTE:  FOR 4.2:  There is an error in the NodeJS12 CONFIGMAP Build Agent (Filed as ISSUE#11), so besure the value
 #           defined for the image reference is correct: image-registry.openshift-image-registry.svc:5000
