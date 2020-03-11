@@ -7,6 +7,7 @@ openshift.withCluster() {
   env.BUILD_ENV = "dtlandscape-build"
   env.DVL_ENV = "dtlandscape-dvl"
   env.DVL_API = "https://api.dr1a1.paasdev.delta.com:6443"
+  env.PIPELINE_SERCRET = "pipeline-dr1a1"
 }
 
 pipeline {
@@ -56,7 +57,7 @@ pipeline {
       agent { label 'applier' }
 
       steps {
-        applier(secretName: "pipeline-dvl",
+        applier(secretName: "${PIPELINE_SERCRET}",
                 registryUrl: "${DVL_API}",
                 inventoryPath: ".applier/inventory-deploy/",
                 requirementsPath: ".applier/requirements.yml",
