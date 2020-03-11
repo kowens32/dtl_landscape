@@ -1,0 +1,110 @@
+@Library('openshift-library') _
+
+openshift.withCluster() {
+  env.APP_NAME = "dtl-landscape"
+  env.SBX_ENV = openshift.project()
+  env.ARTIFACT_DIRECTORY = "dal-landscape/dist/"
+  env.BUILD_ENV = "dtlandscape-build"
+  env.DVL_ENV = "dtlandscape-dvl"
+  env.INT_ENV = "dtlandscape-int"
+  env.PRD_ENV = "dtlandscape"
+}
+
+pipeline {
+
+  stages {
+    
+    agent { label 'applier' }
+
+    stage ("Input - Deploy to INT") {
+      steps {
+        input "Do you want to deploy to INT?"
+      }
+    }
+
+    stage('Apply INT Configuration') {
+      agent { label 'applier' }
+
+      steps {
+        applier(secretName: "${INT_PIPELINE_SERCRET}",
+                registryUrl: "https://int1con.paassi.delta.com:443",
+                inventoryPath: "nginx/nginx-example/.applier/inventory-int/",
+                requirementsPath: "nginx/nginx-example/.applier/requirements.yml",
+                skipTlsVerify: true )
+      }
+    }
+
+    stage('Promote to INT1') {
+        steps {
+                imageMirror(sourceSecret: "${BUILD_ENV}-pipeline-dvl",
+                sourceRegistry: "https://registry.apps.dr1a1.paasdev.delta.com",
+                destinationSecret: "${BUILD_ENV}-pipeline-int",
+                destinationRegistry: "http://registry.apps.ir1a1.paassi.delta.com",
+                insecure: "true",
+                sourceNamespace: "${DVL_ENV}",
+                destinationNamespace: "${INT_ENV}",
+                sourceImage: "${APP_NAME}",
+                sourceImageVersion: "latest",
+                destinationImageVersion: "latest"
+            )
+        }
+    }
+    
+    stage ("Verify Deployment to INT") {
+        steps {
+          withCredentials([usernamePassword(credentialsId: "${BUILD_ENV}-pipeline-int", usernameVariable: "username", passwordVariable: "tokenInt")]) {
+            verifyDeployment(targetApp: "${APP_NAME}",
+                 projectName: "${INT_ENV}",
+                 clusterUrl: "https://console-openshift-console.apps.ir1a1.paassi.delta.com",
+                 clusterToken: "$tokenInt")
+          }
+        }
+    }
+
+    stage ("Input - Deploy to Production?") {
+      steps {
+        input "Do you want to deploy to production?"
+      }
+    }
+
+//     stage('Apply PRD1 Configuration') {
+//       agent { label 'applier' }
+
+//       steps {
+//         applier(secretName: "${PRD_PIPELINE_SERCRET}",
+//                 registryUrl: "https://prd1con.paas.delta.com:443",
+//                 inventoryPath: "nginx/nginx-example/.applier/inventory-prd1/",
+//                 requirementsPath: "nginx/nginx-example/.applier/requirements.yml",
+//                 skipTlsVerify: true )
+//       }
+//     }
+
+//     stage ('Promote to PRD1') {
+//       steps {
+//         imageMirror(sourceSecret: "${BUILD_ENV}-pipeline-int",
+//                     sourceRegistry: "https://docker-registry-default.lab1apps.paaseng.delta.com/",
+//                     destinationSecret: "${BUILD_ENV}-pipeline-prd1",
+//                     destinationRegistry: "https://docker-registry-default.lab1apps.paaseng.delta.com/",
+//                     insecure: "true",
+//                     sourceNamespace: "${INT_ENV}",
+//                     destinationNamespace: "${PRD_ENV}",
+//                     sourceImage: "${APP_NAME}",
+//                     sourceImageVersion: "latest",
+//                     destinationImageVersion: "latest"
+//                     )
+//       }
+//     }
+
+//     stage ("Verify Deployment to PRD1") {
+//         steps {
+
+//           withCredentials([usernamePassword(credentialsId: "${BUILD_ENV}-pipeline-prd1", usernameVariable: "username", passwordVariable: "tokenInt")]) {
+//             verifyDeployment(targetApp: "${APP_NAME}",
+//                  projectName: "${PRD_ENV}",
+//                  clusterUrl: "https://lab1con.paaseng.delta.com",
+//                  clusterToken: "$tokenInt")
+//           }
+//         }
+//     }
+//   }
+}

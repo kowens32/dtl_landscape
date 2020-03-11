@@ -25,7 +25,7 @@ $ scl enable rh-nodejs10 bash
 
 ```shell
 # If deployment to 4.2, 
-oc login https://api.sr1a1.paasdev.delta.com:6443
+oc login https://api.dr1a1.paasdev.delta.com:6443
 
 # OPTIONAL: Skip this Next step/command if have Ansible installed locally.  Otherwise, you may run in a toolkit container:
 oc run -i -t tool-box-example --image=quay.io/redhat-cop/tool-box:v1.2 --restart=Never --rm bash
