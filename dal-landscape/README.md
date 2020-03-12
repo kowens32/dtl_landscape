@@ -25,7 +25,7 @@ The Trail Map provides an overview for enterprises starting their development jo
 
 ## Interactive Version
 
-Please see [comingsoon.delta.com](https://comingsoon.delta.com).
+Please see [landscape.delta.com](https://landscape.delta.com).
 
 ## New Entries
 If you think your project or service should be included, please open a issue to add it to [landscape.yml](landscape.yml). 

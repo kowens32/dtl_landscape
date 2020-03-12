@@ -133,20 +133,23 @@ describe("Normal browser", function() {
   landscapeTest();
   embedTest();
 
-  test("Filtering by organization", async () => {
-    const project = projects[0];
-    const organizationSlug = paramCase(project.organization);
-    const otherProject = projects.find(({ organization }) => organization !== project.organization);
-    const otherOrganizationSlug = paramCase(otherProject.organization);
+  //JGD: Commented out because we dont have Crunchbase organizational data
+  // test("Filtering by organization", async () => {
+  //   const project = projects[0];
+  //   const organizationSlug = paramCase(project.organization);
 
-    console.log(`Checking we see ${project.name} when filtering by organization ${project.organization}`);
-    const page = await makePage(`${appUrl}/organization=${organizationSlug}&format=card-mode`);
-    await expect(page).toMatch(project.name);
+    
+  //   const otherProject = projects.find(({ organization }) => organization !== project.organization);
+  //   const otherOrganizationSlug = paramCase(otherProject.organization);
 
-    console.log(`Checking we don't see ${project.name} when filtering by organization ${otherProject.organization}`);
-    await page.goto(`${appUrl}/organization=${otherOrganizationSlug}&format=card-mode`);
-    await expect(page).not.toMatch(project.name);
-  }, 6 * 60 * 1000);
+  //   console.log(`Checking we see ${project.name} when filtering by organization ${project.organization}`);
+  //   const page = await makePage(`${appUrl}/organization=${organizationSlug}&format=card-mode`);
+  //   await expect(page).toMatch(project.name);
+
+  //   console.log(`Checking we don't see ${project.name} when filtering by organization ${otherProject.organization}`);
+  //   await page.goto(`${appUrl}/organization=${otherOrganizationSlug}&format=card-mode`);
+  //   await expect(page).not.toMatch(project.name);
+  // }, 6 * 60 * 1000);
 });
 
 describe("iPhone simulator", function() {

@@ -47,7 +47,7 @@ const Item = (function({zoom, item, x, y, isLarge, onSelectItem}) {
 })
 
 const LargeItem = (function({zoom, item, x, y, onSelectItem}) {
-  const k = 2;
+  const k = 2;   //Adjust for ICON Size:  JGD
   const z = function(x) {
     return Math.round(x * zoom * 2) / 2;
   };

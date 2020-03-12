@@ -23356,6 +23356,11 @@
             "ws": "^6.1.0"
           },
           "dependencies": {
+            "agent-base": {
+              "version": "5.1.1",
+              "resolved": "https://nexus.delta.com/repository/npm-js/agent-base/-/agent-base-5.1.1.tgz",
+              "integrity": "sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g=="
+            },
             "https-proxy-agent": {
               "version": "4.0.0",
               "resolved": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-4.0.0.tgz",
