@@ -107,97 +107,96 @@ big_picture:
     title: Delta Technology Landscape
     fullscreen_header: Overwhelmed? Please see the Delta Trail Map. That and the interactive landscape are at landscape.delta.com
     size:
-      width: 1920
-      height: 2700
+      width: 1420
+      height: 2250
     fullscreen_size:
-      width: 1920
-      height: 2700
+      width: 1420
+      height: 2250
     elements:
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: DevOps Services and Tools
-        rows: 20
-        width: 1680
-        height: 800
+        cols: 10
+        width: 475
+        height: 1420
         top: 20
         left: 0
         color: 'rgb(46,97,107)'
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: Development Languages
-        rows: 0.55
-        width: 1860
-        height: 200
-        top: 820
-        left: 0
+        cols: 8
+        width: 380
+        height: 800
+        top: 20
+        left: 495
         color: 'rgb(143,88,61)'
       - type: VerticalCategory
         category: Web Service
         col: 2
         width: 300
         height: 120
-        top: 1040
-        left: 0
+        top: 20
+        left: 895
         color: 'rgb(107,61,46)'
       - type: VerticalCategory
         category: App Service
         col: 2
         width: 300
         height: 120
-        top: 1040
-        left: 350
+        top: 160
+        left: 895
         color: 'rgb(109,61,143)'
       - type: VerticalCategory
         category: Content Management System
         col: 2
         width: 300
         height: 120
-        top: 1040
-        left: 740
+        top: 300
+        left: 895
         color: 'rgb(179,77,77)'
       - type: VerticalCategory
         category: Middleware Integration
-        cols: 8
-        width: 450
-        height: 320
-        top: 1200
+        cols: 4
+        width: 300
+        height: 380
+        top: 440
+        left: 895
+        color: 'rgb(107,61,46)'
+      - type: VerticalCategory
+        category: Data Services
+        cols: 10
+        width: 820
+        height: 780
+        top: 850
+        left: 495
+        color: 'rgb(46,107,46)'
+      - type: VerticalCategory
+        category: Platform as a Service (PaaS)
+        cols: 10
+        width: 475
+        height: 500
+        top: 1460
         left: 0
         color: 'rgb(107,61,46)'
-      - type: HorizontalCategory
-        category: Data Services
-        cols: 34
-        rows: 18
-        width: 880
-        height: 780
-        top: 1560
-        left: 0
-        color: 'rgb(46,107,46)'
       - type: VerticalCategory
         category: Workload Hosting
         cols: 8
-        width: 400
-        height: 500
-        top: 2400
-        left: 0
-        color: 'rgb(107,61,46)'
-      - type: VerticalCategory
-        category: Platform as a Service (PaaS)
-        cols: 8
-        width: 400
-        height: 500
-        top: 2400
-        left: 420
+        width: 820
+        height: 400
+        top: 1650
+        left: 495
         color: 'rgb(107,61,46)'
       - type: VerticalCategory
         category: Identity & Access Management
         cols: 1
-        width: 125
+        width: 100
         height: 800
-        top: 18
-        left: 1700
+        top: 20
+        left: 1215
         color: 'rgb(107,97,46)'
       - type: LandscapeInfo
         width: 290
         height: 250
-        top: 2900
+        top: 1950
         left: 5
         children:
           - type: text
