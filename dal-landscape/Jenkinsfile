@@ -1,6 +1,7 @@
 @Library('openshift-library') _
 
 openshift.withCluster() {
+  env.APP_VERSION = "1.0"
   env.APP_NAME = "dtl-landscape"
   env.SBX_ENV = openshift.project()
   env.ARTIFACT_DIRECTORY = "dal-landscape/dist/"
@@ -41,7 +42,9 @@ pipeline {
                     echo "Copy NGINX Conf"
                     cd ..
                     cp config/nginx.conf ${ARTIFACT_DIRECTORY}
-                    echo ${JOB_NAME}-${BUILD_ID}-(GIT_COMMITTER_NAME:${GIT_COMMITTER_NAME}) > ${ARTIFACT_DIRECTORY}/release.txt
+
+                    echo ${APP_VERSION}.${JOB_NAME} - ${BUILD_ID} > ${ARTIFACT_DIRECTORY}/release.txt
+                    echo ${GIT_COMMITTER_NAME}_${GIT_COMMITTER_EMAIL} ::  >> ${ARTIFACT_DIRECTORY}/release.txt
                   '''
             } // End Script
         } // with withCredentials
