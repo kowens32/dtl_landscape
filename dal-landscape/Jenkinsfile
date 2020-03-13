@@ -30,7 +30,7 @@ pipeline {
         string(credentialsId: "${BUILD_ENV}-twitter-secret", variable: 'TWITTER_KEYS')]) {
             script {
                 sh '''
-                    BUILD_DATE=`date +"%Y-%m-%d"`             
+                    BUILD_DATE=`date +"%Y.%m.%d"`             
                     echo "build landscapeapp NPM"
                     function y { PROJECT_PATH=`pwd` npm run --prefix ../landscapeapp "$@"; }
                     export -f y
