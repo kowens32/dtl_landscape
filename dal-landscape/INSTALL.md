@@ -15,6 +15,7 @@
     # Enable Software Collections
     # create file  /etc/profile.d/enable-rh-nodejs10.sh with content or 
     # copy from ../landscapeapp/lib/enable-rh-nodejs10.sh
+    $ sudo yum install libXScrnSaver  # for Chromium testing
 ```
 
 ## Local development
