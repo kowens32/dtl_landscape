@@ -41,6 +41,7 @@ pipeline {
                     echo "Copy NGINX Conf"
                     cd ..
                     cp config/nginx.conf ${ARTIFACT_DIRECTORY}
+                    echo ${JOB_NAME}-${BUILD_ID}-(GIT_COMMITTER_NAME:${GIT_COMMITTER_NAME}) > ${ARTIFACT_DIRECTORY}/release.txt
                   '''
             } // End Script
         } // with withCredentials
