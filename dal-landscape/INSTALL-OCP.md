@@ -4,20 +4,6 @@
 1 - As a (recommended) [Ansible deployed OpenShift project](#running-in-openshift-via-applier-ansible)
 2 - For [Sandbox or local workstation/laptop](INSTALL.md) 
 
-## Install (Linux RHEL 7)
-
-```shell
-# If *nix is clean build, install the collections:
-$ ssh D9192067@sxnda85346.cloudlab.delta.com
-$ sudo yum install -y gcc-c++ make
-$ sudo yum install rh-nodejs10
-$ #TODO:  Update zlib to 1.2.9 See ../landscapeapp/lib/README.md
-# Enable Software Collections
-$ scl enable rh-nodejs10 bash
-```
-## Update helper alias and functions 
-[Update .bash_profile] (INSTALL.md)
-
 ## Running in OpenShift (Via Applier & Ansible)
 ### Run Applier/Ansible tasks ###
 

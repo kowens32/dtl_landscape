@@ -3,7 +3,7 @@
 
 ```shell
 # ensure in correct directory 
-cd ./lib
+cd dtl_landscape/landscapeapp/lib/
 gunzip zlib-1.2.9.tar.gz
 tar xf zlib-1.2.9.tar
 cd zlib-1.2.9 

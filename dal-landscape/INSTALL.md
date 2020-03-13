@@ -3,19 +3,30 @@
 ## Install on Mac
 1. Install [Homebrew](https://brew.sh/)
 2. `brew install node`
-3. `git clone git@git.delta.com:ea/dtl_landscape.git`
 
 ## Install on Linux
-1. `git clone git@git.delta.com:ea/dtl_landscape.git`
-2. Please follow [this script](https://github.com/cncf/landscapeapp/blob/master/update_server/setup.template) to install correct versions of `nodejs` and other packages on Linux.
+1. Install NodeJS and *nix dependencies
+```shell
+# If *nix is clean build, install the collections:
+    $ ssh D9192067@sxnda85397.cloudlab.delta.com
+    $ sudo yum install -y gcc-c++ make
+    $ sudo yum install rh-nodejs10
+    $ #TODO:  Update zlib to 1.2.9 See ../landscapeapp/lib/README.md
+    # Enable Software Collections
+    # create file  /etc/profile.d/enable-rh-nodejs10.sh with content or 
+    # copy from ../landscapeapp/lib/enable-rh-nodejs10.sh
+```
 
 ## Local development
 The CNCF team recommends installing one or more landscapes as sibling directories to the landscapeapp. Then, you want to install the npm modules for landscapeapp but not for any of the landscapes. So, if you're in a directory called `${HOME}/dev`, you would do:
 ```sh
-dev$ git clone git@git.delta.com:ea/dtl_landscape.git
+#Choice:  you can use HTTPS to make it easier with no Build Secrets needed for pulls
+#dev$ git clone git@git.delta.com:ea/dtl_landscape.git
+dev$ git clone https://git.delta.com/ea/dtl_landscape.git
 dev$ cd dtl_landscape/landscapeapp
 dev$ npm install
 ```
+# If on a linux with the above configs, you may skip the following `.bash_profile` entries
 Now, to use the local landscapeapp as a shared module you can add the following to your `~/.bash_profile`:
 ```sh
 function y { PROJECT_PATH=`pwd` npm run --prefix ../landscapeapp "$@"; }
