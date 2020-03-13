@@ -3369,6 +3369,41 @@ landscape:
               badge: false
               percentage: null
   - category:
+    name: API
+    subcategories:
+      - subcategory:
+        name: Security
+        items: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Apigee Gateway
+            homepage_url: 'http://cloud.google.com/apigee/'
+            stock_ticker: GOOGL
+            open_source: false
+            project: standard
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+            image_data:
+              fileName: apigee-gateway.svg
+              hash: zEMFdEcwjW1jH4G/6ipmKDuA9mVomYpBtKbnfD4F65c=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-03-12T20:02:29.000Z
+      - subcategory:
+        name: Framework
+        items: null
+      - subcategory:
+        name: Hosted Platform
+        items: null
+      - subcategory:
+        name: On-Prem. Platform
+        items: null
+  - category:
     name: Delta Partners
     subcategories:
       - subcategory:
@@ -3626,40 +3661,5 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-02-13T21:37:13.000Z
-  - category:
-    name: API
-    subcategories:
-      - subcategory:
-        name: Security
-        items: null
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name: Apigee Gateway
-            homepage_url: 'http://cloud.google.com/apigee/'
-            stock_ticker: GOOGL
-            open_source: false
-            project: standard
-            twitter: 'https://twitter.com/googlecloud'
-            logo: apigee.svg
-            crunchbase: 'https://www.crunchbase.com/organization/google'
-            image_data:
-              fileName: apigee-gateway.svg
-              hash: zEMFdEcwjW1jH4G/6ipmKDuA9mVomYpBtKbnfD4F65c=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-03-12T20:02:29.000Z
-      - subcategory:
-        name: Framework
-        items: null
-      - subcategory:
-        name: Hosted Platform
-        items: null
-      - subcategory:
-        name: On-Prem. Platform
-        items: null
 twitter_options:
   count: 0

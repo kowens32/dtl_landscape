@@ -4,8 +4,10 @@
 const csvParser = require('csv-parser');
 const fs = require('fs');
 const readline = require('readline');
-const addPartner = true;
+const addPartnerCategory = true;
+const addAPICategory = true;
 const partnerFile = __dirname+"/../data/category-partners.yml";
+const APILandscape = __dirname+"/../data/category-api.yml";
 
 function checkArgs(args){
 
@@ -95,23 +97,30 @@ function startReader(csvFile){
     // }
 
     .on('end', () => {
-      if (addPartner){
-        catPartnerFile();
+
+      if (addPartnerCategory){
+        catCategoryFile(partnerFile);
       }
+      
+      if (addAPICategory){
+        catCategoryFile(APILandscape);
+      }
+      
     })
 
 }
 
-function catPartnerFile(){
+function catCategoryFile(file_to_read){
 
   const rl = readline.createInterface({
-    input: fs.createReadStream(partnerFile),
+    input: fs.createReadStream(file_to_read),
     crlfDelay: Infinity
   });
 
   rl.on('error', () => {
         console.error("ERROR READING PARTNERE FILE!");
-        return;
+        process.exit(1);
+
     }).on('line', function (line) {
       console.log(' ', line); // Need two whitespace for yml
     });

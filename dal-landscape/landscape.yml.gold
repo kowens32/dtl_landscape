@@ -1700,33 +1700,6 @@ landscape:
             logo: azure.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
-    name: API
-    subcategories:
-      - subcategory:
-        name: Security
-        items: null
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name: Apigee Gateway
-            homepage_url: 'http://cloud.google.com/apigee/'
-            stock_ticker: GOOGL
-            open_source: false
-            project: standard
-            twitter: 'https://twitter.com/googlecloud'
-            logo: apigee.svg
-            crunchbase: 'https://www.crunchbase.com/organization/google'
-      - subcategory:
-        name: Framework
-        items: null
-      - subcategory:
-        name: Hosted Platform
-        items: null
-      - subcategory:
-        name: On-Prem. Platform
-        items: null
-  - category:
     name: Delta Partners
     subcategories:
       - subcategory:
@@ -1796,3 +1769,30 @@ landscape:
             twitter: 'https://twitter.com/GeorgiaTech'
             logo: gaTech.svg
             crunchbase: 'https://www.crunchbase.com/organization/georgia-institute-of-technology'
+  - category:
+    name: API
+    subcategories:
+      - subcategory:
+        name: Security
+        items: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Apigee Gateway
+            homepage_url: 'http://cloud.google.com/apigee/'
+            stock_ticker: GOOGL
+            open_source: false
+            project: standard
+            twitter: 'https://twitter.com/googlecloud'
+            logo: apigee.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+      - subcategory:
+        name: Framework
+        items: null
+      - subcategory:
+        name: Hosted Platform
+        items: null
+      - subcategory:
+        name: On-Prem. Platform
+        items: null
