@@ -29,7 +29,8 @@ pipeline {
         [string(credentialsId: "${BUILD_ENV}-github-secret", variable: 'GITHUB_KEY'), 
         string(credentialsId: "${BUILD_ENV}-twitter-secret", variable: 'TWITTER_KEYS')]) {
             script {
-                sh '''             
+                sh '''
+                    BUILD_DATE=`date +"%Y-%m-%d"`             
                     echo "build landscapeapp NPM"
                     function y { PROJECT_PATH=`pwd` npm run --prefix ../landscapeapp "$@"; }
                     export -f y
@@ -42,9 +43,7 @@ pipeline {
                     echo "Copy NGINX Conf"
                     cd ..
                     cp config/nginx.conf ${ARTIFACT_DIRECTORY}
-
-                    echo ${APP_VERSION}.${JOB_NAME} - ${BUILD_ID} > ${ARTIFACT_DIRECTORY}/release.txt
-                    echo ${GIT_COMMITTER_NAME}_${GIT_COMMITTER_EMAIL} ::  >> ${ARTIFACT_DIRECTORY}/release.txt
+                    echo ${JOB_NAME}-${APP_VERSION}.${BUILD_DATE}${BUILD_ID} > ${ARTIFACT_DIRECTORY}/release.txt
                   '''
             } // End Script
         } // with withCredentials
