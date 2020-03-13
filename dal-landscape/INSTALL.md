@@ -26,7 +26,10 @@ dev$ git clone https://git.delta.com/ea/dtl_landscape.git
 dev$ cd dtl_landscape/landscapeapp
 dev$ npm install
 ```
+
 # If on a linux with the above configs, you may skip the following `.bash_profile` entries
+# If the login process does not enable Software Collections and alias, you can issue the following
+# . /etc/profile.d/nodejs.sh 
 Now, to use the local landscapeapp as a shared module you can add the following to your `~/.bash_profile`:
 ```sh
 function y { PROJECT_PATH=`pwd` npm run --prefix ../landscapeapp "$@"; }
