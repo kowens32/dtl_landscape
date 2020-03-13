@@ -4,11 +4,11 @@
 1. Install [Homebrew](https://brew.sh/)
 2. `brew install node`
 
-## Install on Linux
+## Install on blank, clean Linux
 1. Install NodeJS and *nix dependencies
 ```shell
-# If *nix is clean build, install the collections:
-    $ ssh D9192067@sxnda85397.cloudlab.delta.com
+    ssh ${USERNAME}@sxnda85397.cloudlab.delta.com
+    # If *nix is clean build, install the collections:
     $ sudo yum install -y gcc-c++ make
     $ sudo yum install rh-nodejs10
     $ #TODO:  Update zlib to 1.2.9 See ../landscapeapp/lib/README.md
