@@ -43,7 +43,7 @@ pipeline {
                     echo "Copy NGINX Conf"
                     cd ..
                     cp config/nginx.conf ${ARTIFACT_DIRECTORY}
-                    echo ${JOB_NAME}-${APP_VERSION}.${BUILD_DATE}${BUILD_ID} > ${ARTIFACT_DIRECTORY}/release.txt
+                    echo ${JOB_NAME}-${APP_VERSION}.${BUILD_DATE}.${BUILD_ID} > ${ARTIFACT_DIRECTORY}/release.txt
                   '''
             } // End Script
         } // with withCredentials
