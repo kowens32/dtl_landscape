@@ -75,7 +75,8 @@ function startReader(csvFile){
         console.log("            delta_owner: "+row["DELTA_OWNER"]);
         console.log("            homepage_url: '"+row["HOMEPAGE_URL"]+"'");
         console.log("            stock_ticker: "+row["STOCK_TICKER"]);
-        console.log("            open_source: "+row["OPEN_SOURCE"]);
+        console.log("            open_source: "+row["OPEN_SOURCE"].toLowerCase());
+        console.log("            repo_url: "+row["REPO_URL"].toLowerCase());
         console.log("            twitter: '"+row["TWITTER"]+"'");
         console.log("            logo: "+row["LOGO"]);
         console.log("            crunchbase: '"+row["CRUNCHBASE"]+"'");

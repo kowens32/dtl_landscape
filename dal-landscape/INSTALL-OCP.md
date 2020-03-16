@@ -10,8 +10,12 @@
 *NOTE:* Either run within Windows CMD Prompt, Mac Terminal Shell, or UNIX Shell.  There are problems/bugs if trying to run within Git for Windows Shell.
 
 ```shell
-# If deployment to 4.2, 
+# If deployment to 4.2 )(dev) 
 oc login https://api.dr1a1.paasdev.delta.com:6443
+
+# If deployment to 4.2 )(sandbox) 
+oc login https://api.sr1a1.paasdev.delta.com:6443
+
 
 # OPTIONAL: Skip this Next step/command if have Ansible installed locally.  Otherwise, you may run in a toolkit container:
 oc run -i -t tool-box-example --image=quay.io/redhat-cop/tool-box:v1.2 --restart=Never --rm bash

@@ -44,6 +44,7 @@ When creating new entries, the only 4 required fields are name, homepage_url, lo
             open_source: false | true
             twitter: 'https://www.twitter.com/....'
             crunchbase: (REQUIRED) 'https://www.crunchbase.com/organization/dynatrace-software'
+            repo_url: (REQUIRED for OSS) 'https://github.com/... path to project ...'
 
 ```
 
@@ -56,6 +57,7 @@ other supported attributes include the following. Please consult code for detail
     enduser:
     allow_duplicate_repo:
     unnamed_organization:
+    
 ```
 ## Logos
 
