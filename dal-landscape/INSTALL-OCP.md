@@ -18,7 +18,7 @@ oc login https://api.sr1a1.paasdev.delta.com:6443
 
 
 # OPTIONAL: Skip this Next step/command if have Ansible installed locally.  Otherwise, you may run in a toolkit container:
-oc run -i -t tool-box-example --image=quay.io/redhat-cop/tool-box:v1.2 --restart=Never --rm bash
+oc run -i -t tool-box-example --image=quay.io/redhat-cop/tool-box:v1.20 --restart=Never --rm bash
 
 # Locally clone the Git repository location, where TARGET_REPO is the correct path.
 git clone https://git.delta.com/${TARGET_REPO}/dtl_landscape.git
